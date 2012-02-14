@@ -1,0 +1,18 @@
+De perl.nl site zal voornamelijk bestaan uit static pages
+met zoekmachinevriendelijke urls.
+
+Daar mogen natuurlijk wel dynamic ajax elementen in zitten.
+
+De bla.nl.html en bla.en.html files gaan we natuurlijk
+met perl genereren. (Soort van TT2Site maar dan anders.)
+
+Daarvoor gaan we een MVC framework gebruiken: Dancer.
+De view wordt TT, maar Dancer-Template-Xslate is ook beschikbaar.
+Voor het Model is de voorkeur gevallen op Dancer-Plugin-DBIC.
+(Voorkeur DBD is DBD-SQLite)
+
+Dat ruikt naar een CMS, waar er al zoveel van zijn...
+
+Het idee is om github.com te gebruiken om een paar
+kleine stukjes app-s en kleine stukjes tt samen te smeden
+op nl.pm.org die dan perl.nl genereert.
