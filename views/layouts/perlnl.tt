@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<title>Perl in .NL</title>
+<meta name="Keywords" content="perl,mongers,nederland" />
+<meta name="Description" content="Webstek van de Perl mongers in Nederland" />
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/all.css" />
+</head>
+<body>
+<div id="main">
+<div id="kopij">
+<div id="header">
+<h1 id="headertitle">VOOR PERL MONGERS IN NEDERLAND</h1>
+</div> <!-- header -->
+[% content %]
+</div> <!-- kopij -->
+<div id="koemeel">
+<div id="navi">
+<ul>
+<li>introductie</li>
+<li>over perl</li>
+<li>perl nieuws</li>
+<li><a href="/amsterdam/">amsterdam.pm</a></li>
+<li><a href="/groningen/">groningen.pm</a></li>
+<li><a href="http://www.perlworkshop.nl/">workshop</a></li>
+<li>stichting</li>
+</ul>
+</div> <!-- navi -->
+</div> <!-- koemeel -->
+<div id="footer">
+<p>Colofon, sitemap, etc...</p>
+<p>Powered by <a href="http://perldancer.org/">Dancer</a>
+and <a href="http://githup.com/">GitHub</a>.</p>
+</div> <!-- footer -->
+</div> <!-- main -->
+</body>
+</html>

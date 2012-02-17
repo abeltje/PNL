@@ -1,0 +1,24 @@
+/* perl.nl style media all */
+html, body, div, p, h1, h2, h3 { margin: 0px; border: 0px; padding: 0px; }
+body { background-color: #A7AEB4; font: 80% verdana,sans-serif; color: #000; }
+img { border: 0px; }
+h1, h2 { font-variant: small-caps; }
+h1 { font-size: 18px; color: #048; }
+h2 { font-size: 150%; font-weight: bold; color: #048; padding: 15px 0px; }
+h3 { font-size: 100%; font-weight: bold; padding: 10px 0px 5px 0px; }
+p, ul { line-height: 150%; }
+ul { padding: 0px 0px 0px 15px; }
+a:link { color: #048; }
+a:visited { color: #E00; }
+#main { height: 1%; width: 922px; margin: 5px auto; }
+#kopij { float: right; color: #000; width: 685px; min-height: 600px; background-color: #FFF; }
+#header { background: #B2C8DD url(http://nl.pm.org/img/perlnlheader.jpg) no-repeat; height: 171px; }
+#headertitle { position: relative; top: 135px; left: 25px; }
+#kopijbody { float: left; width: 420px; padding: 20px 25px; background-color: #E4E4E4; min-height: 389px; }
+#sidebar { margin-left: 470px; padding: 20px 10px; min-height: 200px; }
+#sidebar h2 { color: #E00; }
+#koemeel { color: #FFF; background: #000 url(http://nl.pm.org/img/koemeelgras.jpg) no-repeat; width: 237px; min-height: 600px; }
+#navi { position: relative; top: 200px; width: 210px; font-size: 190%; font-weight: bolder; text-align: right; }
+#navi ul { list-style-type: none; font-variant: small-caps; margin: 0px; line-height: 150%; }
+#navi a { color: #FFF; text-decoration: none; }
+#footer { clear: both; color: #FFF; margin: 10px; }
