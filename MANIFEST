@@ -26,6 +26,12 @@ public/robots.txt
 README
 t/001_base.t
 t/002_index_route.t
+views/about.tt
+views/amsterdam.tt
+views/groningen.tt
 views/index.tt
 views/layouts/main.tt
 views/layouts/perlnl.tt
+views/news.tt
+views/sppn.tt
+views/workshop.tt
