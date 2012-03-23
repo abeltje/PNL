@@ -1,0 +1,50 @@
+<div id="kopijbody">
+<h2>over Perl</h2>
+<p>
+Het motto van Perl is "There's More Than One Way To Do It" (Alles kan op meer manieren),
+oftewel TMTOWTDI, op zijn Engels uitgesproken als "Tim Touwdi".
+Een leuke Nederlandse vertaling moet nog gemaakt worden,
+dus we houden het even op "Alles kan op meer manieren" (AKOMM).
+Dit motto is zeker van toepassing op het leren van Perl.
+We geven hier een beschrijving waar en hoe u Perl kunt leren.
+Het "waar" betreft de plek waar de leerstof gevonden kan worden:
+boeken, tijdschriften, websites en meer,
+die allemaal gebruikt kunnen worden om Perl te leren.
+Deze leermaterialen zijn gevarieerd genoeg in diepgang en
+specialisatie om iedereen iets te kunnen bieden, van beginner tot expert.
+</p>
+<p>
+Het "hoe" betreft de methode om Perl te leren:
+sommige mensen leren het beste door zelf met boeken aan de slag te gaan,
+anderen hebben liever websites en andere internetbronnen,
+weer anderen gaan zelf het liefst aan de slag met
+<a href="http://www.sppn.nl/leerperl.html#scripts">scripts</a>
+(kleine en grote stukken programmacode) en leren het dan met vallen en opstaan,
+met de foutmeldingen van de debugger en de bij Perl meegeleverde
+<a href="http://perldoc.perl.org/">digitale handboeken</a>
+en <a href="https://metacpan.org/">opdrachtenbibliotheken</a>.
+Veel mensen maken ook gebruik van en doen mee met de vele gebruikersgemeenschappen
+(in websites en nieuwsgroepen, maar ook met echte bijeenkomsten),
+waar altijd wel iemand is die geduldig vragen beantwoordt of die uit zichzelf
+uitleg geeft over een bepaald aspect van Perl.
+En dan zijn er natuurlijk nog de cursussen, conferenties, seminars
+en andere bijeenkomsten waar mensen samen aan en van elkaar leren.
+</p>
+<p>
+In het overzicht moet voor elk type leerling wel wat te vinden zijn.
+</p>
+</div> <!-- kopijbody -->
+
+<div id="sidebar">
+<h2>overzicht</h2>
+<ul>
+<li><a href="http://www.sppn.nl/leerperl.html#ways">Methoden om Perl te leren</a></li>
+<li><a href="http://www.sppn.nl/leerperl.html#intro">Introducties en beginnerscursussen</a></li>
+<li><a href="http://www.sppn.nl/leerperl.html#books">Boeken</a></li>
+<li><a href="http://www.sppn.nl/leerperl.html#know">Kenniscentra</a></li>
+<li><a href="http://www.sppn.nl/leerperl.html#docu">Documentatie</a></li>
+<li><a href="http://www.sppn.nl/leerperl.html#scripts">Programma's, scripts, modules</a></li>
+<li><a href="http://www.sppn.nl/leerperl.html#other">Andere bronnen en onderwerpen</a></li>
+<li><a href="http://www.sppn.nl/leerperl.html#orgs">Organisaties</a></li>
+</ul>
+</div> <!-- sidebar -->

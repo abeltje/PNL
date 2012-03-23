@@ -1,0 +1,27 @@
+<div id="kopijbody">
+<h2>Introductie</h2>
+<p>Perl.nl is de gezamenlijke website van de Nederlandse Perl-gemeenschap, ook
+bekend als de Nederlandse Perl Mongers. Ben je ge&iuml;nteresseerd in het
+programmeren met Perl, kom dan gerust eens naar een van onze maandelijkse
+meetings om kennis te maken. Deze meetings zijn deels gezellig en deels
+technisch van aard. Je kunt er je vragen over Perl stellen, en demonstreren wat
+je zelf met of voor Perl hebt gebouwd. Bovendien is er ieder jaar een
+landelijke workshop van een hele dag.
+</p>
+</div> <!-- kopijbody -->
+
+<div id="sidebar">
+<h2>recente onderwerpen</h2>
+<h3>MVC</h3>
+<p>
+Model: Dancer::Plugin::DBIC, <br />
+View: TT (andere views beschikbaar)<br/ >
+Controller: Dancer<br />
+</p>
+<h3>Bijeenkomsten amsterdam.pm</h3>
+<p>Blijven voorlopig op de eerste dinsdag
+van de maand bij <a href="http://www.eet.nu/diemen/ling-hong">Ling Hong</a></p>
+<h3>GitHub</h3>
+<p>Deze site wordt ontwikkeld met <a href="https://github.com/hvoers/PNL">GitHub</a>
+als "CMS".</p>
+</div> <!-- sidebar -->
