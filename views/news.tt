@@ -1,27 +1,48 @@
 <div id="kopijbody">
-<h2>Introductie</h2>
-<p>Perl.nl is de gezamenlijke website van de Nederlandse Perl-gemeenschap, ook
-bekend als de Nederlandse Perl Mongers. Ben je ge&iuml;nteresseerd in het
-programmeren met Perl, kom dan gerust eens naar een van onze maandelijkse
-meetings om kennis te maken. Deze meetings zijn deels gezellig en deels
-technisch van aard. Je kunt er je vragen over Perl stellen, en demonstreren wat
-je zelf met of voor Perl hebt gebouwd. Bovendien is er ieder jaar een
-landelijke workshop van een hele dag.
+<h2>Perl nieuws</h2>
+<p>
+Perl is een springlevende taal.
+Ontwikkelingen zijn er op vele gebieden.
+Maar ja, jij bent druk aan het programmeren
+of met het aansturen van de programmeurs.
+Je hebt de tijd niet om de honderden posts
+en artikelen elke dag te lezen...
+</p>
+<p>
+Toch wil je een oogje houden op alle ontwikkelingen
+zonder te verdrinken in een zee van blogs.
+Je hebt iemand nodig om de meest belangrijke berichten
+voor jou op een rijtje te zetten.
+</p>
+<p>
+Gabor Szabo is de man. Elke maandag smullen
+zodat je weer mee kan praten over het "trending topic".
+</p>
+<p style="margin: 40px">
+<a href="http://perlweekly.com/" style="
+  background-color: #004065;
+  color: #FFF;
+  text-decoration: none;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Gadget;
+
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border: 1px solid #000;
+  padding: 10px;
+">Perl Weekly</a>
 </p>
 </div> <!-- kopijbody -->
 
 <div id="sidebar">
-<h2>recente onderwerpen</h2>
-<h3>MVC</h3>
-<p>
-Model: Dancer::Plugin::DBIC, <br />
-View: TT (andere views beschikbaar)<br/ >
-Controller: Dancer<br />
-</p>
-<h3>Bijeenkomsten amsterdam.pm</h3>
-<p>Blijven voorlopig op de eerste dinsdag
-van de maand bij <a href="http://www.eet.nu/diemen/ling-hong">Ling Hong</a></p>
-<h3>GitHub</h3>
-<p>Deze site wordt ontwikkeld met <a href="https://github.com/hvoers/PNL">GitHub</a>
-als "CMS".</p>
+<h2>bronnen</h2>
+<h3>Perl sites</h3>
+<p><a href="http://www.perl.org/">The Perl Programming Language</a></p>
+<h3>Nieuwsbrieven</h3>
+<p><a href="http://lists.perl.org/">Perl Mailing Lists</a></p>
+<p><a href="http://perlweekly.com/">Perl Weekly</a></p>
+<h3>Blogs</h3>
+<p><a href="http://blogs.perl.org/">There's more than one way to blog it.</a></p>
+<p><a href="http://perlhacks.com/">Just another Perl Hacker's blog.</a></p>
 </div> <!-- sidebar -->
