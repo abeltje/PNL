@@ -1,22 +1,22 @@
 <div id="kopijbody">
-<h2>Introductie</h2>
-<p>Perl.nl is de gezamenlijke website van de Nederlandse Perl-gemeenschap, ook
-bekend als de Nederlandse Perl Mongers. Ben je ge&iuml;nteresseerd in het
-programmeren met Perl, kom dan gerust eens naar een van onze maandelijkse
-meetings om kennis te maken. Deze meetings zijn deels gezellig en deels
-technisch van aard. Je kunt er je vragen over Perl stellen, en demonstreren wat
-je zelf met of voor Perl hebt gebouwd. Bovendien is er ieder jaar een
-landelijke workshop van een hele dag.
+<h2>Groningen.pm</h2>
+<h3>Bijeenkomsten</h3>
+<p>Als regel elke 3e donderdag van de maand.</p>
+<p>
+<ul>
+<li>Wil je komen? Meld dit even op de mailing list:
+<a href="http://groningen.pm.org/ml_index.html">groningen-pm@pm.org</a></li>
+<li>Zin in een gezellig etentje vooraf? Laat dit even weten op
+de mailing list.</li>
+</ul>
 </p>
 </div> <!-- kopijbody -->
 
 <div id="sidebar">
 <h2>recente onderwerpen</h2>
-<h3>MVC</h3>
+<h3>Meer onderwerpen?</h3>
 <p>
-Model: Dancer::Plugin::DBIC, <br />
-View: TT (andere views beschikbaar)<br/ >
-Controller: Dancer<br />
+Naast Perl ook algemeen systeembeheer op de agenda zetten?
 </p>
 <h3>Bijeenkomsten amsterdam.pm</h3>
 <p>Blijven voorlopig op de eerste dinsdag
