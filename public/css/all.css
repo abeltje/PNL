@@ -12,12 +12,12 @@ a:link { color: #048; }
 a:visited { color: #E00; }
 #main { background-color: #000; height: 1%; width: 992px; margin: 5px auto; }
 #kopij { float: right; color: #000; width: 755px; min-height: 600px; background-color: #E4E4E4; }
-#header { background: #5D86BA url(http://nl.pm.org/img/perlnlheader.jpg) no-repeat; height: 171px; }
+#header { background: #5D86BA url(/img/perlnlheader.jpg) no-repeat; height: 171px; }
 #headertitle { position: relative; top: 135px; left: 25px; width: 700px; }
 #kopijbody { float: left; width: 420px; padding: 20px 25px; background-color: #E4E4E4; min-height: 389px; }
 #sidebar { margin-left: 470px; padding: 20px 10px; min-height: 200px; background-color: #FFF; min-height: 389px; }
 #sidebar h2 { color: #E00; }
-#koemeel { color: #FFF; background: #000 url(http://nl.pm.org/img/koemeelgras.jpg) no-repeat; width: 237px; min-height: 600px; }
+#koemeel { color: #FFF; background: #000 url(/img/koemeelgras.jpg) no-repeat; width: 237px; min-height: 600px; }
 #navi { position: relative; top: 200px; width: 210px; font-size: 190%; font-weight: bolder; text-align: right; }
 #navi ul { list-style-type: none; font-variant: small-caps; margin: 0px; line-height: 150%; }
 #navi a { color: #FFF; text-decoration: none; }
