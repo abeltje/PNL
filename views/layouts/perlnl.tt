@@ -5,8 +5,10 @@
 <title>Perl in .NL</title>
 <meta name="Keywords" content="perl,mongers,nederland" />
 <meta name="Description" content="Webstek van de Perl mongers in Nederland" />
+<meta name="viewport" content="width=device-width" />
 <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
 <link rel="stylesheet" type="text/css" media="all" href="/css/all.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/css/screen.css" />
 </head>
 <body>
 <div id="main">
