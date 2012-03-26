@@ -12,6 +12,7 @@ public/404.html
 public/500.html
 public/css/all.css
 public/css/error.css
+public/css/screen.css
 public/css/style.css
 public/dispatch.cgi
 public/dispatch.fcgi
