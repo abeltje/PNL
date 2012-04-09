@@ -15,9 +15,11 @@ get '/news/' => sub {
     template 'news';
 };
 
-get '/amsterdam/' => sub {
-    template 'amsterdam';
-};
+load_app 'Amsterdam', prefix => '/amsterdam';
+
+#get '/amsterdam/' => sub {
+#    template 'amsterdam';
+#};
 
 get '/groningen/' => sub {
     template 'groningen';
