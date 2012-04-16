@@ -1,12 +1,15 @@
 package Amsterdam;
 use Dancer ':syntax';      # Controler
 use Template;              # View
-use Dancer::Plugin::DBIC;  # Model
+
+use Amsterdam::Meeting 'next_amsterdam_meeting';
 
 our $VERSION = '0.1';
 
 get '/' => sub {
-    template 'amsterdam';
+    template 'amsterdam' => {
+        meeting_date => next_amsterdam_meeting(),
+    };
 };
 
 true;
