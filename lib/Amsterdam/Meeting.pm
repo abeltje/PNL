@@ -38,10 +38,11 @@ sub amsterdam_meeting_time {
     my $wday = (localtime timelocal 0, 0, 0, 1, $month, $year)[6];
     my $mday = ( (9 - $wday) % 7 ) + 1;
 
-    # not on 1 jan, 5 may, 5 dec;
+    # not on 1 jan, 1 or 5 may, 5 dec;
     if (   ($month == 1 && $mday == 1)
-        or ($month == 12 && $mday == 5)
-        or ($month == 5 && $mday == 5))
+        or ($month == 5 && $mday == 1 && $year == 2012)
+        or ($month == 5 && $mday == 5)
+        or ($month == 12 && $mday == 5))
     {
         $mday += 7;
     }
