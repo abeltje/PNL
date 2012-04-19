@@ -13,13 +13,13 @@ sub next_amsterdam_meeting {
     my $now = time();
     my @now = localtime($now);
 
-    my $month = $now[4];
+    my $month = $now[4]; # 0..11
     my $year  = $now[5] + 1900;
 
     my $meeting = amsterdam_meeting_time($month, $year);
     if ($meeting < $now) {
         $month++;
-        if ($month > 11) {
+        if ($month > 10) {
             $month = 0;
             $year++;
         }
@@ -28,6 +28,7 @@ sub next_amsterdam_meeting {
 
     return date_nl($meeting);
 }
+
 sub amsterdam_meeting_time {
     my ($month, $year) = @_;
 
@@ -39,10 +40,10 @@ sub amsterdam_meeting_time {
     my $mday = ( (9 - $wday) % 7 ) + 1;
 
     # not on 1 jan, 1 or 5 may, 5 dec;
-    if (   ($month == 1 && $mday == 1)
-        or ($month == 5 && $mday == 1 && $year == 2012)
-        or ($month == 5 && $mday == 5)
-        or ($month == 12 && $mday == 5))
+    if (   ($month == 0 && $mday == 1)
+        or ($month == 4 && $mday == 1 && $year == 2012)
+        or ($month == 4 && $mday == 5)
+        or ($month == 11 && $mday == 5))
     {
         $mday += 7;
     }
@@ -70,3 +71,4 @@ sub date_nl {
     );
 }
 
+1;
