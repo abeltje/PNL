@@ -30,6 +30,7 @@ public/robots.txt
 README
 t/001_base.t
 t/002_index_route.t
+t/500-amsterdam-meeting.t
 views/about.tt
 views/amsterdam.tt
 views/groningen.tt
