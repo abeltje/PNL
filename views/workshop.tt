@@ -1,27 +1,44 @@
 <div id="kopijbody">
-<h2>Introductie</h2>
-<p>Perl.nl is de gezamenlijke website van de Nederlandse Perl-gemeenschap, ook
-bekend als de Nederlandse Perl Mongers. Ben je ge&iuml;nteresseerd in het
-programmeren met Perl, kom dan gerust eens naar een van onze maandelijkse
-meetings om kennis te maken. Deze meetings zijn deels gezellig en deels
-technisch van aard. Je kunt er je vragen over Perl stellen, en demonstreren wat
-je zelf met of voor Perl hebt gebouwd. Bovendien is er ieder jaar een
-landelijke workshop van een hele dag.
+<h2>Workshop</h2>
+<p>
+De Perl-workshop is een dag voor presentaties en ontmoetingen van en voor Perl-gebruikers.
+Een kans om een indruk van de programmeertaal Perl te krijgen voor nieuwelingen
+en om meer over technieken, bestaande oplossingen en laatste ontwikkelingen
+te weten te komen voor ervaren gebruikers.
+</p>
+<h3>Gratis en op een zaterdag</h3>
+<p>
+Niet iedereen kan op kosten van de baas tijdens werktijd
+naar een conferentie of workshop.
+Om nieuwelingen aan te moedigen met Perl kennis te maken
+houden we de toegang kosteloos.
+Ook dit jaar hebben we weer voor een zaterdag gekozen,
+voor degenen die er doordeweeks niet bij zouden kunnen zijn.
+</p>
+<h3>Registratie</h3>
+<p>
+Om de inkoop van lunch en andere vesnaperingen goed te plannen
+is <a href="http://www.perlworkshop.nl/">registratie</a> wel nodig.
 </p>
 </div> <!-- kopijbody -->
 
 <div id="sidebar">
-<h2>recente onderwerpen</h2>
-<h3>MVC</h3>
+<h2>lees meer</h2>
+<h3>2012</h3>
 <p>
-Model: Dancer::Plugin::DBIC, <br />
-View: TT (andere views beschikbaar)<br/ >
-Controller: Dancer<br />
+De <a href="http://www.perlworkshop.nl/nlpw2012/">Nederlandse Perl-workshop 2012</a>
+werd gehouden op Zaterdag 14 april in Den Haag.
 </p>
-<h3>Bijeenkomsten amsterdam.pm</h3>
-<p>Blijven voorlopig op de eerste dinsdag
-van de maand bij <a href="http://www.eet.nu/diemen/ling-hong">Ling Hong</a></p>
-<h3>GitHub</h3>
-<p>Deze site wordt ontwikkeld met <a href="https://github.com/hvoers/PNL">GitHub</a>
-als "CMS".</p>
+<h3>Actuele Perl workshops</h3>
+<p>
+Zie welke <a href="http://www.perlworkshop.nl/nlpw2012/conferences_curr.html">Perl-workshops</a>
+binnenkort zullen plaatsvinden.
+</p>
+<h3>ACT - A Conference Toolkit</h3>
+<p>
+De Nederlandse Perl-workshop maakt gebruik van
+<a href="http://act.mongueurs.net/">ACT</a>
+dat gemaakt is en gehost wordt door
+<a href="http://mongueurs.net/">Perl mongers in Frankrijk</a>.
+</p>
 </div> <!-- sidebar -->
