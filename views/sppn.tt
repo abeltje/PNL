@@ -1,26 +1,42 @@
 <div id="kopijbody">
-<h2>Introductie</h2>
-<p>Perl.nl is de gezamenlijke website van de Nederlandse Perl-gemeenschap, ook
-bekend als de Nederlandse Perl Mongers. Ben je ge&iuml;nteresseerd in het
-programmeren met Perl, kom dan gerust eens naar een van onze maandelijkse
-meetings om kennis te maken. Deze meetings zijn deels gezellig en deels
-technisch van aard. Je kunt er je vragen over Perl stellen, en demonstreren wat
-je zelf met of voor Perl hebt gebouwd. Bovendien is er ieder jaar een
-landelijke workshop van een hele dag.
+<h2>Stichting Perl Promotie Nederland</h2>
+<h3>Doel</h3>
+<p>
+Het doel van de stichting is het bevorderen van het gebruik van de
+<a href="http://www.perl.org/">programmeertaal Perl</a>,
+het ondersteunen van Perl-gebruikersgroepen,
+met name de zogenaamde <a href="http://www.pm.org/">"Perl Mongers"</a>
+(bijvoorbeeld <a href="http://nl.pm.org/amsterdam/">Amsterdam.PM</a>
+en <a href="http://nl.pm.org/groningen/">Groningen.PM</a>),
+en verder alles dat deze zaken kan bevorderen.
+</p>
+<h3>Hoe</h3>
+<p>
+De stichting probeert haar doel te bereiken door onder andere
+het organiseren van bijeenkomsten,
+het (laten) maken van documentatie en publicitair materiaal,
+en het sponsoren van projecten.
+</p>
+<h3>Middelen</h3>
+<p>
+De stichting verkrijgt haar inkomsten uit subsidies, donaties, schenkingen,
+en sponsor bijdragen bij het organiseren van bijvoorbeeld conferenties en congressen.
 </p>
 </div> <!-- kopijbody -->
 
 <div id="sidebar">
-<h2>recente onderwerpen</h2>
-<h3>MVC</h3>
+<h2>lees meer</h2>
+<h3>Over de stichting</h3>
 <p>
-Model: Dancer::Plugin::DBIC, <br />
-View: TT (andere views beschikbaar)<br/ >
-Controller: Dancer<br />
+<ul>
+<li><a href="http://www.sppn.nl/organisatie.html">Organisatie</a></li>
+<li><a href="http://www.sppn.nl/statuten.html">Statuten</a></li>
+</ul>
 </p>
-<h3>Bijeenkomsten amsterdam.pm</h3>
-<p>Blijven voorlopig op de eerste dinsdag
-van de maand bij <a href="http://www.eet.nu/diemen/ling-hong">Ling Hong</a></p>
+<h3>Leer Perl</h3>
+<p>
+<a href="http://www.sppn.nl/leerperl.html">Verzamelde werken</a>
+</p>
 <h3>GitHub</h3>
 <p>Deze site wordt ontwikkeld met <a href="https://github.com/hvoers/PNL">GitHub</a>
 als "CMS".</p>
