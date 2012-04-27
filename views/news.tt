@@ -41,7 +41,12 @@ zodat je weer mee kan praten over het "trending topic".
 <p><a href="http://www.perl.org/">The Perl Programming Language</a></p>
 <h3>Nieuwsbrieven</h3>
 <p><a href="http://lists.perl.org/">Perl Mailing Lists</a></p>
-<p><a href="http://perlweekly.com/">Perl Weekly</a></p>
+<p>
+<a href="http://perlweekly.com/">Perl Weekly</a>
+<a href="http://perlweekly.com/latest.html">Deze week</a>
+</p>
+<h3>Nieuwsarchief</h3>
+<p><a href="http://perlweekly.com/archive/reverse.html">Voorgaande Perl Weekly's</a></p>
 <h3>Blogs</h3>
 <p><a href="http://blogs.perl.org/">There's more than one way to blog it.</a></p>
 <p><a href="http://perlhacks.com/">Just another Perl Hacker's blog.</a></p>
