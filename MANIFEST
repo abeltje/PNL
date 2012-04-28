@@ -39,4 +39,5 @@ views/layouts/main.tt
 views/layouts/perlnl.tt
 views/news.tt
 views/sppn.tt
+views/why.tt
 views/workshop.tt

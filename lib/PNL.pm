@@ -17,10 +17,6 @@ get '/news/' => sub {
 
 load_app 'Amsterdam', prefix => '/amsterdam';
 
-#get '/amsterdam/' => sub {
-#    template 'amsterdam';
-#};
-
 get '/groningen/' => sub {
     template 'groningen';
 };
@@ -31,6 +27,10 @@ get '/workshop/' => sub {
 
 get '/sppn/' => sub {
     template 'sppn';
+};
+
+get '/why/' => sub {
+    template 'why';
 };
 
 true;

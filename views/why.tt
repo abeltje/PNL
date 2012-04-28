@@ -1,12 +1,32 @@
 <div id="kopijbody">
-<h2>Introductie</h2>
-<p>Perl.nl is de gezamenlijke website van de Nederlandse Perl-gemeenschap, ook
-bekend als de Nederlandse Perl Mongers. Ben je ge&iuml;nteresseerd in het
-programmeren met Perl, kom dan gerust eens naar een van onze maandelijkse
-meetings om kennis te maken. Deze meetings zijn deels gezellig en deels
-technisch van aard. Je kunt er je vragen over Perl stellen, en demonstreren wat
-je zelf met of voor Perl hebt gebouwd. Bovendien is er ieder jaar een
-landelijke workshop van een hele dag.
+<h2>Waarom Perl</h2>
+<p>
+Perl is onzichtbaar. Toch is Perl aan het werk voor elke Internet gebruiker,
+bijvoorbeeld door het filteren van spam.
+</p>
+<h3>LAMP</h3>
+<p>
+<a href="http://en.wikipedia.org/wiki/LAMP_(software_bundle)">LAMP</a> is een buzz word.
+Elke ISP levert dat natuurlijk.
+</p>
+<p>
+<dl>
+<dt>De L is van Linux</dt>
+<dd>Er zijn Perl gebruikers die ook Linux gebruiken.
+Prima, maar elk ander OS is ook goed.</dd>
+<dt>De A is van Apache</dt>
+<dd>Perl is onafhankelijk van webservers.
+Of het nu lighttpd, nginx of apache is, het werkt.</dd>
+<dt>De M is van MySQL</dt>
+<dd>Perl maakt de onderliggende implementatie onzichtbaar.
+Maak je geen zorgen of MySQL er wel is of niet.</dd>
+<dt>De P is van PHP</dt>
+<dd>PHP is een taal die veel gebruikt wordt bij het samenstellen van websites.
+Een nadeel is dat deze taal ingebed is in de taal HTML.
+Perl heeft dat nadeel niet en voldoet aan de voorwaarden van de
+<a href="http://en.wikipedia.org/wiki/Model-view-controller">MVC</a>
+architectuur.</dd>
+</dl>
 </p>
 </div> <!-- kopijbody -->
 
@@ -45,6 +65,4 @@ in een <a href="http://searchdatamanagement.techtarget.com/definition/database-a
 Dat kan ook natuurlijk. Perl maakt moeilijke dingen makkelijk en complexe dingen mogelijk.
 </p>
 <p><a href="http://perltalks.celogeek.com/slides/2012/03/command-line-tools-in-style-slide3d.html#/">Om maar wat te noemen.</a></p>
-<h3>En hoe zit het nu met LAMP</h3>
-<p><a href="/why/">Geen probleem</a>.</p>
 </div> <!-- sidebar -->
