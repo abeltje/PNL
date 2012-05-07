@@ -26,10 +26,11 @@ en wordt door de meeste leveranciers mee geleverd.
 <p>
 Ook op je telefoon, tablet, modem, enz.
 </p>
-<h3>UTF8</h3>
+<h3>Unicode</h3>
 <p>
-Alle talen, schriften en symbolen zijn te gebruiken in Perl.
-<a href="http://www.utf8-chartable.de/">UTF8 tabel</a>.
+Perl ondersteunt <a href="http://perldoc.perl.org/perluniintro.html">Unicode</a>,
+dus alle <a href="http://masculinehygiene.com/sburke/unicode_sliderule/">tekens</a>
+uit alle talen en geschriften zijn te gebruiken.
 </p>
 <h3>Object Oriented</h3>
 <p>
