@@ -36,7 +36,12 @@ In het overzicht moet voor elk type leerling wel wat te vinden zijn.
 </div> <!-- kopijbody -->
 
 <div id="sidebar">
-<h2>overzicht</h2>
+<h2>Meer over Perl</h2>
+<h3>Waarom Perl</h3>
+<p>
+Een paar goede<a href="/why/">redenen</a>om Perl te gebruiken.
+</p>
+<h3>Leer Perl</h3>
 <ul>
 <li><a href="http://www.sppn.nl/leerperl.html#ways">Methoden om Perl te leren</a></li>
 <li><a href="http://www.sppn.nl/leerperl.html#intro">Introducties en beginnerscursussen</a></li>
