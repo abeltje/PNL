@@ -29,11 +29,13 @@ Ook op je telefoon, tablet, modem, enz.
 <h3>UTF8</h3>
 <p>
 Alle talen, schriften en symbolen zijn te gebruiken in Perl.
+<a href="http://www.utf8-chartable.de/">UTF8 tabel</a>.
 </p>
 <h3>Object Oriented</h3>
 <p>
 Wil je iets leren over OO?
-Lees ISBN 1-884777-79-1
+Lees <a href="http://books.perl.org/book/171">Object Oriented Perl</a>
+of doe het <a href="http://modernperlbooks.com/books/modern_perl/chapter_07.html#toc_T2JqZWN0cw">Modern</a>.
 </p>
 <h3>Database agnostic</h3>
 <p>

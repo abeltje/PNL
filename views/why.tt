@@ -28,6 +28,21 @@ Perl heeft dat nadeel niet en voldoet aan de voorwaarden van de
 architectuur.</dd>
 </dl>
 </p>
+<h3>Een schatkist vol bouwstenen</h3>
+<p>
+Bij alles wat de moderne mens tegewoordig doet wordt Perl gebruikt.
+Muziek maken, (dag)boeken schrijven, SMSjes versturen, de boekhouding doen,
+aandelen kopen of verkopen, tweets filteren, enz.
+</p>
+<p>
+Soms wil je daar het wiel nogmaals voor uitvinden, dat is ook leuk.
+Veel mensen hebben dat al reeds gedaan en veel daarvan is te vinden
+in de <a href="https://metacpan.org/">CPAN</a>, een ware schatkamer.
+</p>
+<p>
+Maak jouw eigen <a href="https://metacpan.org/module/Gtk2::WebKit">webbrouwser</a>
+in 10 regels code.
+</p>
 </div> <!-- kopijbody -->
 
 <div id="sidebar">
@@ -49,11 +64,13 @@ Ook op je telefoon, tablet, modem, enz.
 <h3>UTF8</h3>
 <p>
 Alle talen, schriften en symbolen zijn te gebruiken in Perl.
+<a href="http://www.utf8-chartable.de/">UTF8 tabel</a>.
 </p>
 <h3>Object Oriented</h3>
 <p>
 Wil je iets leren over OO?
-Lees ISBN 1-884777-79-1
+Lees <a href="http://books.perl.org/book/171">Object Oriented Perl</a>
+of doe het <a href="http://modernperlbooks.com/books/modern_perl/chapter_07.html#toc_T2JqZWN0cw">Modern</a>.
 </p>
 <h3>Database agnostic</h3>
 <p>
