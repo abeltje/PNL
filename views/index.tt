@@ -17,7 +17,7 @@ landelijke workshop van een hele dag.
 Perl is beschikbaar op elk
 <a href="http://en.wikipedia.org/wiki/Operating_system">Operating System</a>.
 </p>
-<h3>Platform onafhankelijk</h3>
+<h3>Platform-onafhankelijk</h3>
 <p>
 Perl is beschikbaar op elke
 <a href="http://en.wikipedia.org/wiki/Computer">computer</a>
@@ -32,13 +32,13 @@ Perl ondersteunt <a href="http://perldoc.perl.org/perluniintro.html">Unicode</a>
 dus alle <a href="http://masculinehygiene.com/sburke/unicode_sliderule/">tekens</a>
 uit alle talen en geschriften zijn te gebruiken.
 </p>
-<h3>Object Oriented</h3>
+<h3>Objectgeoriënteerd</h3>
 <p>
 Wil je iets leren over OO?
 Lees <a href="http://books.perl.org/book/171">Object Oriented Perl</a>
 of doe het <a href="http://modernperlbooks.com/books/modern_perl/chapter_07.html#toc_T2JqZWN0cw">Modern</a>.
 </p>
-<h3>Database agnostic</h3>
+<h3>Database-onafhankelijk</h3>
 <p>
 Perl maakt het opslaan en terug zoeken van gegeven heel eenvoudig
 in een <a href="http://searchdatamanagement.techtarget.com/definition/database-agnostic">willekeurige</a> database.
