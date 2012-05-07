@@ -38,7 +38,7 @@ Controller: Dancer<br />
 </p>
 <h3>GitHub</h3>
 <p>Deze site wordt ontwikkeld met <a href="https://github.com/hvoers/PNL">GitHub</a>
-als "CMS".</p>
+als &lsquo;CMS&rsquo;.</p>
 <h3>Perl compileren op een Mac</h3>
 <p>Bijvoorbeeld met <a href="http://perlbrew.pl/">PerlBrew</a></p>
 </div> <!-- sidebar -->

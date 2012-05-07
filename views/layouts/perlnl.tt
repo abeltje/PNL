@@ -33,7 +33,6 @@
 </div> <!-- koemeel -->
 
 <div id="footer">
-<p>Colofon, sitemap, etc...</p>
 <p>
 Powered by <a href="http://perldancer.org/">Dancer</a>
 and <a href="http://github.com/">GitHub</a>.
