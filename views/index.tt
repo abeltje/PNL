@@ -11,43 +11,21 @@ landelijke workshop van een hele dag.
 </div> <!-- kopijbody -->
 
 <div id="sidebar">
-<h2>Omdat</h2>
-<h3>OS onafhankelijk</h3>
+<h2>Uitgelicht</h2>
+
+<h3>Waarom Perl</h3>
 <p>
-Perl is beschikbaar op elk
-<a href="http://en.wikipedia.org/wiki/Operating_system">Operating System</a>.
+Een paar goede <a href="/why/">redenen</a> om Perl te gebruiken.
 </p>
-<h3>Platform-onafhankelijk</h3>
+
+<h3>Nieuwste boeken</h3>
 <p>
-Perl is beschikbaar op elke
-<a href="http://en.wikipedia.org/wiki/Computer">computer</a>
-en wordt door de meeste leveranciers mee geleverd.
+Bijgewerkt voor Perl 5.14
+<ul>
+<li><a href="http://shop.oreilly.com/product/0636920018476.do">Perl Pocket Reference, 5th Edition</a></li>
+<li><a href="http://onyxneon.com/books/modern_perl/">Modern Perl</a></li>
+</ul>
+Met <a href="/amsterdam/">korting</a> verkrijgbaar.
 </p>
-<p>
-Ook op je telefoon, tablet, modem, enz.
-</p>
-<h3>Unicode</h3>
-<p>
-Perl ondersteunt <a href="http://perldoc.perl.org/perluniintro.html">Unicode</a>,
-dus alle <a href="http://masculinehygiene.com/sburke/unicode_sliderule/">tekens</a>
-uit alle talen en geschriften zijn te gebruiken.
-</p>
-<h3>Objectgeoriënteerd</h3>
-<p>
-Wil je iets leren over OO?
-Lees <a href="http://books.perl.org/book/171">Object Oriented Perl</a>
-of doe het <a href="http://modernperlbooks.com/books/modern_perl/chapter_07.html#toc_T2JqZWN0cw">Modern</a>.
-</p>
-<h3>Database-onafhankelijk</h3>
-<p>
-Perl maakt het opslaan en terug zoeken van gegeven heel eenvoudig
-in een <a href="http://searchdatamanagement.techtarget.com/definition/database-agnostic">willekeurige</a> database.
-</p>
-<h3>Ik wil alleen maar even iets filteren</h3>
-<p>
-Dat kan ook natuurlijk. Perl maakt moeilijke dingen makkelijk en complexe dingen mogelijk.
-</p>
-<p><a href="http://perltalks.celogeek.com/slides/2012/03/command-line-tools-in-style-slide3d.html#/">Om maar wat te noemen.</a></p>
-<h3>En hoe zit het nu met LAMP</h3>
-<p><a href="/why/">Geen probleem</a>.</p>
+
 </div> <!-- sidebar -->

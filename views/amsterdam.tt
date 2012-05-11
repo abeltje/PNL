@@ -17,6 +17,9 @@ en hou de aanwijzingen daar in de gaten.
 </p>
 <p>Onze <a href="http://amsterdam.pm.org/">oude site</a>
 bestaat ook (nog) steeds.</p>
+<h3>Boeken met korting</h3>
+Op de bijeenkomst zijn ook de nieuwste Perl boeken aanwezig.
+Ter inzage, bespreekbaar en te koop met 20% korting!
 </div> <!-- kopijbody -->
 
 <div id="sidebar">
@@ -24,21 +27,25 @@ bestaat ook (nog) steeds.</p>
 <p>Dinsdag [% meeting_date %].
 In <a
      href="https://maps.google.nl/maps?q=Ling+Hong+B.V.,+Ouddiemerlaan+15,+Diemen&hl=nl&sll=52.634651,4.736248&sspn=0.007084,0.017359&oq=Ling+Hong+Ouddiemerlaan+15,+Diemen&hq=ling+hong+bv&hnear=Ouddiemerlaan+15,+Diemen,+Noord-Holland&t=m&z=16"
-     target="_blank">Ling Hong</a>: Ouddiemerlaan 15 1111GS Diemen.
+     target="_blank">Ling Hong</a>: Ouddiemerlaan 15 1111GS Diemen.<br />
+<a href="http://www.eet.nu/diemen/ling-hong">Waardering</a>: 8.9
 </p>
 <h2>recente onderwerpen</h2>
-<h3>Bijeenkomsten amsterdam.pm</h3>
-<p>Blijven voorlopig op de eerste dinsdag
-van de maand bij <a href="http://www.eet.nu/diemen/ling-hong">Ling Hong</a></p>
-<h3>MVC</h3>
+<h3>Betaalde sprekers uitnodigen</h3>
 <p>
-Model: Dancer::Plugin::DBIC, <br />
-View: TT (andere views beschikbaar)<br/ >
-Controller: Dancer<br />
+Naar aanleiding van
+<a href="http://blogs.perl.org/users/damian_conway/2012/04/quantum-relativistic-time-travel-in-lisbon.html">Quantum-Relativistic Time-Travel in Lisbon</a>
+is het idee ontstaan om sprekers zoals Damian Conway
+ook een keer naar Nederland te halen.
 </p>
 <h3>GitHub</h3>
 <p>Deze site wordt ontwikkeld met <a href="https://github.com/hvoers/PNL">GitHub</a>
 als &lsquo;CMS&rsquo;.</p>
+<p>
+Daarnaast is het mogelijk om files en patches te sturen naar
+<a href="mailto:hvo.pm@xs4all.nl">Henk van Oers</a>.
+Een aparte pagina met uitleg staat in de planning.
+</p>
 <h3>Perl compileren op een Mac</h3>
 <p>Bijvoorbeeld met <a href="http://perlbrew.pl/">PerlBrew</a></p>
 </div> <!-- sidebar -->
