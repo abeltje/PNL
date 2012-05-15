@@ -1,5 +1,5 @@
 <div id="kopijbody">
-<h2>Introductie</h2>
+<h2>introductie</h2>
 <p>Perl.nl is de gezamenlijke website van de Nederlandse Perl-gemeenschap, ook
 bekend als de Nederlandse Perl Mongers. Ben je ge&iuml;nteresseerd in het
 programmeren met Perl, kom dan gerust eens naar een van onze maandelijkse
@@ -11,7 +11,7 @@ landelijke workshop van een hele dag.
 </div> <!-- kopijbody -->
 
 <div id="sidebar">
-<h2>Uitgelicht</h2>
+<h2>uitgelicht</h2>
 
 <h3>Waarom Perl</h3>
 <p>

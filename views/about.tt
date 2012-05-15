@@ -1,5 +1,5 @@
 <div id="kopijbody">
-<h2>over Perl</h2>
+<h2>over perl</h2>
 <p>
 Het motto van Perl is &lsquo;There's More Than One Way To Do It&rsquo; (Alles kan op meer manieren),
 oftewel TMTOWTDI, op zijn Engels uitgesproken als &lsquo;Tim Touwdi&rsquo;.
@@ -36,7 +36,7 @@ In het overzicht moet voor elk type leerling wel wat te vinden zijn.
 </div> <!-- kopijbody -->
 
 <div id="sidebar">
-<h2>Meer over Perl</h2>
+<h2>meer over perl</h2>
 <h3>Waarom Perl</h3>
 <p>
 Een paar goede <a href="/why/">redenen</a> om Perl te gebruiken.
