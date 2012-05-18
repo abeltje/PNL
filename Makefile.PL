@@ -17,6 +17,8 @@ WriteMakefile(
         'Dancer'     => 1.3091,
         'Template'   => 2.23,
         'DBIx::Class::Schema::Loader' => 0.07022,
+        'Dancer::Plugin::DBIC'        => 0.1504,
+        'Dancer::Plugin::Passphrase'  => 1,
     },
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean               => { FILES => 'PNL-*' },
