@@ -8,6 +8,7 @@ Makefile$
 ^.*.bak
 ^.*.old
 ^t.*sessions
+^sessions
 ^cover_db
 ^.*\.log
 ^.*\.swp$

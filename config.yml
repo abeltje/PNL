@@ -26,3 +26,19 @@ engines:
     encoding:  'utf8'
     start_tag: '[%'
     end_tag:   '%]'
+
+# We are going to uses sessions
+session: "YAML"
+session_name: "perlnl_dancer_session"
+
+# And some models
+plugins:
+  DBIC:
+    EV:
+      dsn: dbi:SQLite:dbname=/var/db/PNL/eventdb
+      schema_class: Event
+      options:
+        RaiseError: 1
+        PrintError: 1
+        sqlite_unicode: 1
+

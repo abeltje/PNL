@@ -5,10 +5,14 @@ environments/development.yml
 environments/production.yml
 lib/Amsterdam.pm
 lib/Amsterdam/Meeting.pm
+lib/Event/Schema.pm
+lib/Event/Schema/Result/Event.pm
 lib/PNL.pm
 Makefile.PL
 MANIFEST			This list of files
 MANIFEST.SKIP
+models/event/createsqlite.sh
+models/event/event.sqlite
 MYMETA.json
 MYMETA.yml
 public/404.html

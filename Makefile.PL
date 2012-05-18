@@ -16,7 +16,7 @@ WriteMakefile(
         'YAML'       => 0,
         'Dancer'     => 1.3091,
         'Template'   => 2.23,
-        'DBIx::Class::Schema::Loader' => 0.07024,
+        'DBIx::Class::Schema::Loader' => 0.07022,
     },
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean               => { FILES => 'PNL-*' },
