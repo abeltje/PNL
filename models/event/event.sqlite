@@ -1,0 +1,24 @@
+-- CREATE eventdb
+
+PRAGMA legacy_file_format = off;
+PRAGMA encoding = "UTF-8";
+PRAGMA foreign_keys = on;
+
+CREATE TABLE IF NOT EXISTS events (
+  id INTEGER PRIMARY KEY,
+  event_year  INTEGER NOT NULL,
+  start_month INTEGER,
+  start_day   INTEGER,
+  stop_month  INTEGER,
+  stop_day    INTEGER,
+  event_name  TEXT NOT NULL,
+  city        TEXT,
+  country     TEXT,
+  event_url   TEXT,
+  remark      TEXT,
+  editor      TEXT
+);
+
+CREATE UNIQUE INDEX IF NOT EXISTS year_and_name ON events (event_year, event_name);
+
+SELECT * FROM events;
