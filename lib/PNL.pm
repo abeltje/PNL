@@ -8,29 +8,41 @@ get '/' => sub {
 };
 
 get '/about/' => sub {
-    template 'about';
+    template 'about' => {
+        title => 'Over Perl',
+    };
 };
 
 get '/news/' => sub {
-    template 'news';
+    template 'news' => {
+        title => 'Perl Nieuws',
+    };
 };
 
 load_app 'Amsterdam', prefix => '/amsterdam';
 
 get '/groningen/' => sub {
-    template 'groningen';
+    template 'groningen' => {
+        title => 'Groningen Perl Mongers',
+    };
 };
 
 get '/workshop/' => sub {
-    template 'workshop';
+    template 'workshop' => {
+        title => 'Nederlandse Perl Workshop',
+    };
 };
 
 get '/sppn/' => sub {
-    template 'sppn';
+    template 'sppn' => {
+        title => 'Stichting Perl Promotie Nederland',
+    };
 };
 
 get '/why/' => sub {
-    template 'why';
+    template 'why' => {
+        title => 'Waarom Perl',
+    };
 };
 
 true;
