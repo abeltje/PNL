@@ -7,13 +7,15 @@ get '/' => sub {
     template 'index';
 };
 
-get '/about/' => sub {
+prefix '/about';
+get '/' => sub {
     template 'about' => {
         title => 'Over Perl',
     };
 };
 
-get '/news/' => sub {
+prefix '/news';
+get '/' => sub {
     template 'news' => {
         title => 'Perl Nieuws',
     };
@@ -21,25 +23,29 @@ get '/news/' => sub {
 
 load_app 'Amsterdam', prefix => '/amsterdam';
 
-get '/groningen/' => sub {
+prefix '/groningen';
+get '/' => sub {
     template 'groningen' => {
         title => 'Groningen Perl Mongers',
     };
 };
 
-get '/workshop/' => sub {
+prefix '/workshop';
+get '/' => sub {
     template 'workshop' => {
         title => 'Nederlandse Perl Workshop',
     };
 };
 
-get '/sppn/' => sub {
+prefix '/sppn';
+get '/' => sub {
     template 'sppn' => {
         title => 'Stichting Perl Promotie Nederland',
     };
 };
 
-get '/why/' => sub {
+prefix '/why';
+get '/' => sub {
     template 'why' => {
         title => 'Waarom Perl',
     };
