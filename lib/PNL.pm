@@ -51,4 +51,8 @@ get '/' => sub {
     };
 };
 
+if (config->{environment} eq 'development') {
+    load_app 'Peek', prefix => '/peek';
+};
+    
 true;
