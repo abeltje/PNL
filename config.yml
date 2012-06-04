@@ -36,7 +36,7 @@ plugins:
   DBIC:
     EV:
       dsn: dbi:SQLite:dbname=/var/db/PNL/eventdb
-      schema_class: Event
+      schema_class: Event::Schema
       options:
         RaiseError: 1
         PrintError: 1

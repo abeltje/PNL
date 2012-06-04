@@ -23,3 +23,5 @@ a:visited { color: #E00; }
 #navi ul { list-style-type: none; font-variant: small-caps; margin: 0px; line-height: 150%; }
 #navi a { color: #FFF; text-decoration: none; }
 #footer { background-color: #A7AEB4; clear: both; color: #FFF; margin: 0px; }
+tr.yapc { background-color: #FFA500; }
+tr.normal { background-color: #EEE; }

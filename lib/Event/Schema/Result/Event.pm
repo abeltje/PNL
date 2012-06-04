@@ -79,6 +79,11 @@ __PACKAGE__->table("events");
   data_type: 'text'
   is_nullable: 1
 
+=head2 tr_class
+
+  data_type: 'text'
+  is_nullable: 1
+
 =head2 editor
 
   data_type: 'text'
@@ -108,6 +113,8 @@ __PACKAGE__->add_columns(
   "event_url",
   { data_type => "text", is_nullable => 1 },
   "remark",
+  { data_type => "text", is_nullable => 1 },
+  "tr_class",
   { data_type => "text", is_nullable => 1 },
   "editor",
   { data_type => "text", is_nullable => 1 },
@@ -142,8 +149,8 @@ __PACKAGE__->set_primary_key("id");
 __PACKAGE__->add_unique_constraint("event_year_event_name_unique", ["event_year", "event_name"]);
 
 
-# Created by DBIx::Class::Schema::Loader v0.07022 @ 2012-05-18 12:25:44
-# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:Y9qyg4tBVIsC85vivV87fg
+# Created by DBIx::Class::Schema::Loader v0.07024 @ 2012-06-03 16:20:16
+# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:Eww3WPXMw4fYZ+8cjR5tBQ
 
 
 # You can replace this text with custom code or comments, and it will be preserved on regeneration
