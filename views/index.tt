@@ -30,4 +30,11 @@ Bijgewerkt voor Perl 5.14
 Met <a href="/amsterdam">korting</a> verkrijgbaar.
 </p>
 
+<h3>Git intro</h3>
+<p>
+Deze site wordt gemaakt met behulp van Git.
+Vandaar dat een link naar <a href="http://byte-me.org/intro-to-git-for-perl-hackers/">
+Intro to Git for Perl Hackers</a> niet mag ontbreken.
+</p>
+
 </div> <!-- sidebar -->
