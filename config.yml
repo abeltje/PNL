@@ -28,8 +28,9 @@ engines:
     end_tag:   '%]'
 
 # We are going to uses sessions
-session: "YAML"
-session_name: "perlnl_dancer_session"
+## But not on this site
+##session: "YAML"
+##session_name: "perlnl_dancer_session"
 
 # And some models
 plugins:
