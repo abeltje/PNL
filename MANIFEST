@@ -13,10 +13,8 @@ lib/PNL.pm
 Makefile.PL
 MANIFEST			This list of files
 MANIFEST.SKIP
-models/event/createsqlite.sh
+models/event/createevent.sh
 models/event/event.sqlite
-MYMETA.json
-MYMETA.yml
 public/404.html
 public/500.html
 public/css/all.css
