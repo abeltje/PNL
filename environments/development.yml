@@ -25,3 +25,15 @@ show_errors: 1
 # DO NOT EVER USE THAT FEATURE IN PRODUCTION 
 # OR TINY KITTENS SHALL DIE WITH LOTS OF SUFFERING
 auto_reload: 0
+
+# Add Dancer::Debug
+plack_middlewares:
+  -
+    - Debug
+    - panels
+    -
+      - Parameters
+      - Dancer::Version
+      - Dancer::Settings
+      - Dancer::Logger
+      - Dancer::Routes
