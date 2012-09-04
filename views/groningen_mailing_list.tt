@@ -1,0 +1,26 @@
+<div id="kopijbody">
+<h2>groningen.pm</h2>
+<h3>Mailing lists</h3>
+<p>
+We hebben een mailing list waarop we bijeenkomsten organiseren, of
+gewoon kunnen kletsen over van alles en nog wat (het liefst
+gerelateerd aan Perl). Toch raden we je aan om gewone Perl-zaken te
+bediscussi&euml;ren op de <a href="/amsterdam/mailing_list">algemene Nederlandse Perl mailing list</a>.
+</p>
+</div> <!-- kopijbody -->
+
+<div id="sidebar">
+<h2>mailing list groningen</h2>
+<h3>Aanmelden</h3>
+<p>
+  Om je te abonneren, klik <a href="http://mail.pm.org/mailman/listinfo/groningen-pm">hier</a>.
+</p>
+<h3>Bericht versturen</h3>
+<p>
+  Om berichten op de lijst te zetten, stuur ze naar: <a href="mailto:groningen-pm@pm.org">groningen-pm@pm.org</a>.
+</p>
+<h3>Afmelden</h3>
+<p>
+  Om van de lijst af te komen, klik <a href="http://mail.pm.org/mailman/listinfo/groningen-pm">hier</a>.
+</p>
+</div> <!-- sidebar -->

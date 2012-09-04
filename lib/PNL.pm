@@ -31,6 +31,11 @@ get '/' => sub {
         title => 'Groningen Perl Mongers',
     };
 };
+get '/mailing_list' => sub {
+    template 'groningen_mailing_list' => {
+        title => 'Groningen Perl Mongers mailing list',
+    };
+};
 
 prefix '/workshop';
 get '/' => sub {

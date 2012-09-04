@@ -13,4 +13,10 @@ get '/' => sub {
     };
 };
 
+get '/mailing_list' => sub {
+    template 'amsterdam_mailing_list' => {
+        title => 'Perl Mongers mailing list',
+    };
+};
+
 true;
