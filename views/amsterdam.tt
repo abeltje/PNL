@@ -30,21 +30,12 @@ In <a
 Zie mailinglist.
 </p>
 <h2>recente onderwerpen</h2>
-<h3>Betaalde sprekers uitnodigen</h3>
-<p>
-Naar aanleiding van
-<a href="http://blogs.perl.org/users/damian_conway/2012/04/quantum-relativistic-time-travel-in-lisbon.html">Quantum-Relativistic Time-Travel in Lisbon</a>
-is het idee ontstaan om sprekers zoals Damian Conway
-ook een keer naar Nederland te halen.
-</p>
-<h3>GitHub</h3>
-<p>Deze site wordt ontwikkeld met <a href="https://github.com/hvoers/PNL">GitHub</a>
-als &lsquo;CMS&rsquo;.</p>
-<p>
-Daarnaast is het mogelijk om files en patches te sturen naar
-<a href="mailto:hvo.pm@xs4all.nl">Henk van Oers</a>.
-Een aparte pagina met uitleg staat in de planning.
-</p>
-<h3>Perl compileren op een Mac</h3>
-<p>Bijvoorbeeld met <a href="http://perlbrew.pl/">PerlBrew</a></p>
+<h3>Perl Reunification Summit</h3>
+<p>Kort verslag van de <a href="http://blogs.perl.org/users/liz/2012/08/as-some-of-you-may.html">PRS</a>.</p>
+<h3>Diverse coding tips</h3>
+<p>Over regexen en unicode.</p>
+<h3>Plaatjes</h3>
+<p>Diashow van de diverse conferenties de laatste tijd.</p>
+<h3>Localization</h3>
+<p>In Template Toolkit via Log::Report::Message</p>
 </div> <!-- sidebar -->
