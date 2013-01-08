@@ -4,8 +4,18 @@ use strict;
 
 use Amsterdam::Meeting ':all';
 use MIME::Lite;
+use Getopt::Long;
+my %opt = (
+    production => 0,
+    force => 0,
+);
+GetOptions \%opt => qw/
+    production|p
+    force|f
+/;
+    
 
-if ( is_amsterdam_announce() ) {
+if ( $opt{force} || is_amsterdam_announce() ) {
     send_email()
 }
 
