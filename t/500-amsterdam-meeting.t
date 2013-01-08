@@ -37,6 +37,8 @@ use Amsterdam::Meeting ':all';
         $time = $test->{time};
         is(next_amsterdam_meeting(), $test->{date}, $test->{date});
     }
+    $time = timelocal(0, 0, 0, 8, 0, 2013) - 7*24*60*60;
+    ok(is_amsterdam_announce(), "Announcement day");
 }
 
 {
@@ -56,6 +58,7 @@ use Amsterdam::Meeting ':all';
         { time => [ 9, 2012], date => '2 oktober 2012' },
         { time => [10, 2012], date => '6 november 2012' },
         { time => [11, 2012], date => '4 december 2012' },
+        { time => [ 0, 2013], date => '8 januari 2013' },
     );
     for my $test (@test2012) {
         $time = amsterdam_meeting_time(@{$test->{time}});

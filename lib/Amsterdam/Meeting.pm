@@ -38,7 +38,11 @@ Daarnaast zullen er jaarlijks uitzonderingen zijn:
 =cut
 
 use Exporter 'import';
-our @EXPORT_OK = qw/next_amsterdam_meeting amsterdam_meeting_time/;
+our @EXPORT_OK = qw/
+    next_amsterdam_meeting
+    amsterdam_meeting_time
+    is_amsterdam_announce
+/;
 our %EXPORT_TAGS = (all => [@EXPORT_OK]);
 
 use Time::Local;
@@ -115,6 +119,16 @@ sub amsterdam_meeting_time {
     }
 
     return timelocal(0, 0, 20, $mday, $month, $year);
+}
+
+=head2 my $date = next_amsterdam_announce()
+
+=cut
+
+sub is_amsterdam_announce {
+    my $week_before = amsterdam_meeting_time() - 7 * 24 * 60 * 60;
+
+    return $week_before == timelocal(0, 0, 20, (localtime time())[3, 4, 5]);
 }
 
 =head2 my $datum = date_nl($stamp)
