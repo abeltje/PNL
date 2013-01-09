@@ -1,4 +1,5 @@
 .gitignore
+bin/announce_amsterdam_pm.pl
 bin/app.pl
 config.yml
 environments/development.yml
