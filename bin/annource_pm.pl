@@ -2,6 +2,7 @@
 use warnings;
 use strict;
 
+use lib '../lib';
 use Amsterdam::Meeting ':all';
 use MIME::Lite;
 use Getopt::Long;
@@ -25,12 +26,12 @@ sub send_email {
         'Restaurant Ling Hong',
         'Ouddiemerlaan 15',
         'Diemen',
-        'http://www.eet.nu/diemen/ling-hong'
+        'http://www.eet.nu/diemen/ling-hong',
         next_amsterdam_meeting(),
         'Restaurant Ling Hong',
         'Ouddiemerlaan 15',
         'Diemen',
-        'http://www.eet.nu/diemen/ling-hong'
+        'http://www.eet.nu/diemen/ling-hong',
     );
     my $body = sprintf(<<'    EOM', @args);
 [English version follows the dutch text]
