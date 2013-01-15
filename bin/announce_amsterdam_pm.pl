@@ -2,7 +2,8 @@
 use warnings;
 use strict;
 
-use lib '../lib';
+use FindBin;
+use lib "$FindBin::Bin/../lib";
 use Amsterdam::Meeting ':all';
 use MIME::Lite;
 use Getopt::Long;
@@ -107,10 +108,11 @@ See http://amsterdam.pm.org for more details.
             ],
         );
     }
+    MIME::Lite->send('sendmail', FromSender => 'hvo.pm@xs4all.nl');
     my $msg = MIME::Lite->new(
         Subject => 'Bijeenkomst Amsterdam Perl Mongers, dinsdag '
             . next_amsterdam_meeting(),
-        From => 'Henk van Oers <hvo.pm@xs4all.nl>',
+        From => 'Perl NL <hvo.pm@xs4all.nl>',
         %address,
         Data => $body,
     );
