@@ -1,24 +1,45 @@
 <div id="kopijbody">
-<h2>workshop</h2>
+<h2>Perl-Workshop 2013 in de Stayokay Hostel, Arnhem</h2>
 <p>
-De Perl-workshop is een dag voor presentaties en ontmoetingen van en voor Perl-gebruikers.
-Een kans om een indruk van de programmeertaal Perl te krijgen voor nieuwelingen
-en om meer over technieken, bestaande oplossingen en laatste ontwikkelingen
-te weten te komen voor ervaren gebruikers.
+De Perl-workshop is een jaarlijks terugkerende dag van presentaties
+en ontmoetingen van en voor Perl-gebruikers. De programmeertaal Perl
+is al sinds de vroege jaren negentig een werkpaard in de IT-wereld
+en onmisbaar voor vele professionele toepassingen.
+Systeemprogrammeurs klaren er efficiënt kleine dageljkse klussen mee,
+maar ook grote interactive websites draaiien helemaal onder Perl.
+Je kan er uitstekend teksten mee analyseren, apparaten besturen
+of wiskundige modellen doorrekenen.
 </p>
-<h3>Gratis en op een zaterdag</h3>
+<h3>Voor ervaren gebruikers en geïnteresserden</h3>
 <p>
-Niet iedereen kan op kosten van de baas tijdens werktijd
-naar een conferentie of workshop.
-Om nieuwelingen aan te moedigen met Perl kennis te maken
-houden we de toegang kosteloos.
-Ook dit jaar hebben we weer voor een zaterdag gekozen,
-voor degenen die er doordeweeks niet bij zouden kunnen zijn.
+Voor gebruikers van Perl uit al deze hoeken is deze dag als kans
+bedoeld om met elkaar kennis te maken, van elkaar te leren en meer
+over bestaande oplossingen en nieuwe ontwikkelingen te weten te komen.
 </p>
-<h3>Registratie</h3>
 <p>
-Om de inkoop van lunch en andere vesnaperingen goed te plannen
-is <a href="http://www.perlworkshop.nl/">registratie</a> wel nodig.
+Tegelijkertijd zijn ook nieuwe gebruikers en andere geïnteresseerden
+van harte welkom. Ken je nog niemand in dit wereldje en wil je iets vragen?
+Iedereen van onze mensen zal je vraag graag beantwoorden of in contact
+brengen met degene die in dat onderwerp helemaal thuis is.
+</p>
+<h3>Stel jouw presentatie voor</h3>
+<p>
+Een workshop stelt niets voor zonder boeiende presentaties.
+Tegelijkertijd is dit ook voor jou en je bedrijf de kans om eigen
+Perl-projecten te presenteren, er bekendheid mee te genereren
+en waardevolle feedback van experts te krijgen.
+Dus heb je iets om met andere Perl-gebruikers delen,
+klik dan <a href="http://www.perlworkshop.nl/nlpw2013/speakers.html">hier</a> om je presentatie voor te stellen.
+</p>
+<h3>Terug op onze vertrouwde stek in Arnhem en op een vrijdag</h3>
+<p>
+Velen vonden het toch te gezellig op onze oude workshop-plek, de <a href="http://www.stayokay.com/nl/hostel/arnhem" target="_blank" class="ext">Stayokay in Arnhem</a>,
+met comfortable workshopzalen, uitstekende catering, slaapgelegenheid in huis, en daarom doen we het dit jaar voor de verandering weer hier.
+De <a href="http://www.perlworkshop.nl/nlpw2013/cost.html">financiële bijdrage</a> die we hiervoor vragen is hopelijk te overzien. 
+</p>
+<p>
+We hebben dit jaar weer voor een werkdag gekozen, nadat het twee jaar op een zaterdag heeft plaatsgevonden,
+om ook weer rekening te houden met degenen die makkelijker tijdens kantooruren aanwezig kunnen zijn.
 </p>
 <h3>YAPC::TV</h3>
 <p>
@@ -29,14 +50,14 @@ uit het verleden.
 
 <div id="sidebar">
 <h2>lees meer</h2>
-<h3>2012</h3>
+<h3>2013</h3>
 <p>
-De <a href="http://www.perlworkshop.nl/nlpw2012/">Nederlandse Perl-workshop 2012</a>
-werd gehouden op Zaterdag 14 april in Den Haag.
+De <a href="http://www.perlworkshop.nl/nlpw2013/">Nederlandse Perl-workshop 2013</a>
+zal worden gehouden op 19 april in Arnhem.
 </p>
 <h3>Actuele Perl workshops</h3>
 <p>
-Zie welke <a href="http://www.perlworkshop.nl/nlpw2012/conferences_curr.html">Perl-workshops</a>
+Zie welke <a href="http://www.perlworkshop.nl/nlpw2013/conferences_curr.html">Perl-workshops</a>
 binnenkort zullen plaatsvinden.
 </p>
 <h3>ACT - A Conference Toolkit</h3>

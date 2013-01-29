@@ -89,6 +89,8 @@ If you want to join some of us for dinner, please gather between 18:00
 and 18:30 at the restaurant.
 
 See http://amsterdam.pm.org for more details.
+-- 
+PS: http://www.perlworkshop.nl/nlpw2013/
     EOM
 
     my %address = (
