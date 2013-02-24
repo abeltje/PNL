@@ -47,7 +47,7 @@ our %EXPORT_TAGS = (all => [@EXPORT_OK]);
 
 use Time::Local;
 
-=head2 my $datum = next_amsterdam_meeting()
+=head2 my $datumstring = next_amsterdam_meeting()
 
 =head3 Argumenten
 
@@ -60,6 +60,22 @@ Een datumstring met de maand in het Nederlands (strftime "%e %B %Y").
 =cut
 
 sub next_amsterdam_meeting {
+    return date_nl(next_amsterdam_meeting_time());
+}
+
+=head2 my $stamp = next_amsterdam_meeting_time()
+
+=head3 Argumenten
+
+Geen.
+
+=head3 Retour
+
+Een timestamp.
+
+=cut
+
+sub next_amsterdam_meeting_time {
     my $now = time();
     my @now = localtime($now);
 
@@ -76,7 +92,7 @@ sub next_amsterdam_meeting {
         $meeting = amsterdam_meeting_time($month, $year);
     }
 
-    return date_nl($meeting);
+    return $meeting;
 }
 
 =head2 my $stamp = amsterdam_meeting_time(@argumenten)
@@ -121,13 +137,12 @@ sub amsterdam_meeting_time {
     return timelocal(0, 0, 20, $mday, $month, $year);
 }
 
-=head2 my $date = next_amsterdam_announce()
+=head2 my $boolean = is_amsterdam_announce()
 
 =cut
 
 sub is_amsterdam_announce {
-    my $week_before = amsterdam_meeting_time() - 7 * 24 * 60 * 60;
-
+    my $week_before = next_amsterdam_meeting_time() - 7 * 24 * 60 * 60;
     return $week_before == timelocal(0, 0, 20, (localtime time())[3, 4, 5]);
 }
 

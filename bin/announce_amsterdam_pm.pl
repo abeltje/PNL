@@ -105,8 +105,7 @@ PS: http://www.perlworkshop.nl/nlpw2013/
         %address = (
             To => 'nl-pm@amsterdam.pm.org',
             Cc => [
-                'groningen-pm@pm.org', 'vlaanderen@pm.org',
-                'bas@softwarefreedom.nl',
+                'groningen-pm@pm.org',
             ],
         );
     }
