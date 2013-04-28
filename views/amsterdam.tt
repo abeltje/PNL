@@ -30,6 +30,9 @@ In <a
 Zie mailinglist.
 </p>
 <h2>recente onderwerpen</h2>
+<h3>tezt</h3>
+<p><a href="https://github.com/Juerd/tezt">tezt</a>
+is een eenvoudige vervanger van <strong>nagios</strong></p>
 <h3>OAuth2</h3>
 <p>Gaat best wel belangkijk worden
 <a href="https://metacpan.org/module/MARKOV/Net-OAuth2-0.51/lib/Net/OAuth2.pod">Net-OAuth2</a></p>

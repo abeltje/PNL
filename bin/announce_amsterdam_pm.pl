@@ -63,7 +63,7 @@ Zie %s voor details.
 Liefhebbers van een etentje vooraf kunnen reeds tussen 18:00 en 18:30
 naar het restaurant komen om een hapje te eten.
 
-Bezoek onze Web site http://amsterdam.pm.org voor meer details.
+Bezoek onze Web site http://perl.nl/amsterdam voor meer details.
 
 [English version]
 
@@ -88,9 +88,8 @@ See %s for a description.
 If you want to join some of us for dinner, please gather between 18:00
 and 18:30 at the restaurant.
 
-See http://amsterdam.pm.org for more details.
+See http://perl.nl/amsterdam for more details.
 -- 
-PS: http://www.perlworkshop.nl/nlpw2013/
     EOM
 
     my %address = (
