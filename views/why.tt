@@ -19,7 +19,7 @@ Of het nu lighttpd, nginx of apache is, het werkt.</dd>
 <dt>De M is van MySQL</dt>
 <dd>Perl maakt de onderliggende implementatie onzichtbaar.
 Maak je geen zorgen of MySQL er wel is of niet. Je kan ook Oracle, PostgreSQL of veel andere databases gebruiken.</dd>
-<dt>De P is van PHP</dt>
+<dt>De P is van Perl/PHP</dt>
 <dd>PHP is een taal die veel gebruikt wordt bij het samenstellen van websites.
 Een nadeel is dat deze taal ingebed is in de taal HTML.
 Perl heeft dat nadeel niet en voldoet aan de voorwaarden van de
