@@ -8,11 +8,63 @@ technisch van aard. Je kunt er je vragen over Perl stellen, en demonstreren wat
 je zelf met of voor Perl hebt gebouwd. Bovendien is er ieder jaar een
 landelijke workshop van een hele dag.
 </p>
-<h2>Perl-Workshop 2013 in Arnhem</h2>
+<h2>Lezing Damian Conway</h2>
+<h3>Everything You Know About Regexes Is Wrong</h3>
+<ul>
+<li>Dinsdag 18 maart 16.00 tot 18.00 uur</li>
+<li>Theater "De Kleine Komedie", Amstel 56-58, 1017 AC Amsterdam</li>
+<li>Toegang gratis, registreren hoeft niet</li>
+</ul>
 <p>
-De <a href="http://www.perlworkshop.nl/nlpw2013/">Nederlandse Perl-workshop 2013</a>
-werd gehouden op 19 april in Arnhem.
-Evaluatie in <a href="/amsterdam">Amsterdam</a>.
+De Australier Damian Conway is een uitzonderlijk spreker: niet alleen
+is zijn feitenkennis ongekend, maar als geen ander weet hij daar een
+creatief een enthousiast verhaal van te maken.  Twee keer per jaar
+reist Damian letterlijk de wereld rond om zijn seminars voor te dragen
+en gelukkig vond hij een paar dagen om in Nederland langs te komen.
+</p>
+<p>
+De Amsterdam en AmsterdamX Perl Mongers en de NLUUG nodigen de Open
+Source gemeenschap uit voor een seminar over "Reguliere Expressies".
+Hoewel Damian een sterke band heeft met de Perl-gemeenschap, is deze
+presentatie programmeertaal-onafhankelijk.
+</p>
+<div style="background-color:#fff">
+<p>Damian:
+<q>
+For most programmers, regular expressions are a riddle wrapped in a
+mystery inside an enigma shrouded in line-noise.
+<br />
+So most sensible programmers either don't use them at all (and are thereby
+forced to reinvent worse wheels...badly), or else they fall back on an
+"evolutionary programming" approach: find an existing regex that looks
+like it might do, then randomly permute its "genome" over and over again
+until it appears to work.
+<br />
+In this talk we'll go back to basics and discover that regexes mostly
+aren't what you think they are, mostly don't work the way you were told
+they did, and mostly shouldn't be created the way everyone tells you to.
+<br />
+More usefully, we'll also talk about what regexes really are, how they
+actually work, and see how normal programmers can make use of their
+existing software development skills to construct correct and efficient
+regexes...without selling their souls or losing their minds.
+</q>
+</p>
+</div>
+<p>
+Gesponsord door
+<a href="http://booking.com">Booking</a>
+<a href="https://nluug.nl">NLUUG</a>
+<a href="http://perl.nl/sppn">SPPN</a>
+</p>
+<p>
+Damian zou ook nog graag een training verzorgen tijdens dit verblijf in Nederland.
+Zie <a href="http://damian.conway.org/">http://damian.conway.org/</a> voor zijn mogelijkheden.
+</p>
+<h2>Perl-Workshop 2014 in Utrecht</h2>
+<p>
+De <a href="http://www.perlworkshop.nl/nlpw2014/">Nederlandse Perl-workshop 2014</a>
+wordt gehouden op Vrijdag 25 april in Utrecht.
 </p>
 </div> <!-- kopijbody -->
 
