@@ -1,6 +1,5 @@
 package PNL;
 use Dancer ':syntax';
-use Dancer::Plugin::DBIC 'schema';
 
 our $VERSION = '0.1';
 
@@ -23,7 +22,6 @@ get '/' => sub {
 };
 
 load_app 'Amsterdam', prefix => '/amsterdam';
-load_app 'Event', prefix => '/events';
 
 prefix '/groningen';
 get '/' => sub {
@@ -57,9 +55,5 @@ get '/' => sub {
         title => 'Waarom Perl',
     };
 };
-
-if (config->{environment} eq 'development') {
-    load_app 'Peek', prefix => '/peek';
-};
     
-true;
+1;
