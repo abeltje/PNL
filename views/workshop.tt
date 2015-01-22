@@ -1,5 +1,5 @@
 <div id="kopijbody">
-<h2>Nederlandse Perl-Workshop 2014</h2>
+<h2>Nederlandse Perl-Workshop 2015</h2>
 <h3> Universiteit voor Humanistiek<br/> Kromme Nieuwegracht 29, 3512 HD Utrecht<br/> Vrijdag 25 april 2014, 9:00  &ndash; 18:00  uur <br/>
 </h3>
 <p>
@@ -11,31 +11,11 @@ en professionele gebruikers van Perl uit verschillende organisaties. Maar ook ni
 Tijdens de presentaties en informele gesprekken blijf je op de hoogte van de laatste toevoegingen
 aan taal en modules en kom je hoogstwaarschijnlijk altijd oplossingen voor problemen uit de dagelijkse praktijk tegen.
 </p> 
-<h3>Nieuwe locatie in het midden van het land </h3>
+<h3>Dezelde locatie als vorig jaar </h3>
 <p>
 Dit jaar kunnen wij gebruik maken van collegezalen van de Universiteit voor Humanistiek in Utrecht, op loopafstand van Station Utrecht Centraal.
 </p>
 
-<h3>Wie kun je zoal verwachten?</h3>
-<p>Sinds halverwege vorig jaar is er voor de in Nederland werkzame buitenlandse Perl programmeurs
-een eigen Perl-mongers-groep, <b>AmsterdamX</b>.
-Door de goede wederzijdse verstandhouding kunnen we dit jaar rekenen op internationale belangstelling.
-Zo kunnen we uitkijken naar <a href="http://act.yapc.eu/ye2013/user/4993">Ribasushi</a>
-die inzicht geeft in <b>DBIx::Class</b> en de dan recente ontwikkelingen van de hackathon,
-<a href="http://www.perlworkshop.nl/nlpw2014/user/5015">Leon Timmermans</a>
-die alles weet over het ontwikkelen van Perl-distributies, ook wel de <b>Toolchain</b>.
-Inmiddels is er <b>Dancer2</b> een modern web-framework, waar
-<a href="http://act.yapc.eu/ye2013/user/6730">SawyerX</a> meer komt vertellen over hoe eenvoudig
-het is om website te bouwen.
-Geen webserver, maar werken vanaf de commando-regel en opties meegeven, <b>Getopt::Long</b> van
-<a href="http://www.perlworkshop.nl/nlpw2013/user/5011">Johan Vromans</a>
-doet het al sinds de vroege jaren van Perl.
-Maar Perl blijft ontwikkelen en uiteraard kun je horen over de laatste ontwikkelingen van <b>Perl&nbsp;6</b> door
-<a href="http://www.perlworkshop.nl/nlpw2014/user/1026">Liz</a>.
-En meer over de basis-technieken als <b>DBI</b> door
-<a href="http://www.perlworkshop.nl/nlpw2014/user/268">Tux</a> en <b>XML</b> door
-<a href="http://www.perlworkshop.nl/nlpw2014/user/269">Mark Overmeer</a>.
-</p>
 
 <h3>Zelf een presentatie geven?</h3>
 <p>Wij kijken uit naar meer boeiende presentaties van deelnemers.
@@ -54,14 +34,19 @@ verwoed programmeren of welke vorm van gezelligheid dan ook.
 
 <h3>YAPC::TV</h3>
 <p>
-Een paar <a href="http://yapc.tv/rss/nl/">video registraties</a>
-uit het verleden.
+Een paar <a href="http://perltv.org/source/nlpw2014">video registraties</a>
+van vorig jaar.
 </p>
 </div> <!-- kopijbody -->
 
 <div id="sidebar">
 <h2>lees meer</h2>
 <h3>2014</h3>
+<p>
+De <a href="http://www.perlworkshop.nl/nlpw2015/">Nederlandse Perl-workshop 2015</a>
+Vrijdag 10 april in Utrecht.
+<h3>2013</h3>
+<p>
 <p>
 De <a href="http://www.perlworkshop.nl/nlpw2014/">Nederlandse Perl-workshop 2014</a>
 Vrijdag 25 april in Utrecht.
@@ -72,7 +57,7 @@ werd gehouden op 19 april in Arnhem.
 </p>
 <h3>Actuele Perl workshops</h3>
 <p>
-Zie welke <a href="http://www.perlworkshop.nl/nlpw2014/conferences_curr.html">Perl-workshops</a>
+Zie welke <a href="http://www.perlworkshop.nl/nlpw2015/conferences_curr.html">Perl-workshops</a>
 binnenkort zullen plaatsvinden.
 </p>
 <h3>ACT - A Conference Toolkit</h3>
