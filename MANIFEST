@@ -6,16 +6,10 @@ environments/development.yml
 environments/production.yml
 lib/Amsterdam.pm
 lib/Amsterdam/Meeting.pm
-lib/Event.pm
-lib/Event/Schema.pm
-lib/Event/Schema/Result/Event.pm
-lib/Peek.pm
 lib/PNL.pm
 Makefile.PL
 MANIFEST			This list of files
 MANIFEST.SKIP
-models/event/createevent.sh
-models/event/event.sqlite
 MYMETA.json
 MYMETA.yml
 public/404.html
@@ -24,7 +18,6 @@ public/css/all.css
 public/css/error.css
 public/css/screen.css
 public/css/style.css
-public/dispatch.cgi
 public/dispatch.fcgi
 public/favicon.ico
 public/images/perldancer-bg.jpg
@@ -41,15 +34,12 @@ t/500-amsterdam-meeting.t
 views/about.tt
 views/amsterdam.tt
 views/amsterdam_mailing_list.tt
-views/events.tt
 views/groningen.tt
 views/groningen_mailing_list.tt
 views/index.tt
 views/layouts/main.tt
 views/layouts/perlnl.tt
 views/news.tt
-views/peek.tt
-views/peek_navi.tt
 views/sppn.tt
 views/why.tt
 views/workshop.tt

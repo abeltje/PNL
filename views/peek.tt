@@ -1,6 +1,0 @@
-<div id="kopijbody">
-<h2>peek [% what %]</h2>
-<pre>
-[% data %]
-</pre>
-</div> <!-- kopijbody -->
