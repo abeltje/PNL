@@ -10,29 +10,53 @@ use Getopt::Long;
 my %opt = (
     production => 0,
     force => 0,
+    place => 'linghong',
 );
 GetOptions \%opt => qw/
     production|p
     force|f
+    place=s
 /;
-    
 
-if ( $opt{force} || is_amsterdam_announce() ) {
-    send_email()
+my %amsterdam_place = (
+    linghong => {
+        name   => 'Restaurant Ling Hong',
+        street => 'Ouddiemerlaan 15',
+        place  => 'Diemen',
+        url    => 'http://www.eet.nu/diemen/ling-hong',
+    },
+    techinc => {
+        name   => 'Technologia Incognita',
+        street => 'Louwesweg 1',
+        place  => 'Amsterdam',
+        url    => 'http://www.techinc.nl',
+    },
+);
+
+if (not exists $amsterdam{ $opt{place} }) {
+    die "Onbekende plaats voor bijeenkomst: $opt{place}\n";
 }
 
+if ( $opt{force} || is_amsterdam_announce() ) {
+    send_email( $amsterdam_place{$opt{place}} )
+}
+
+
 sub send_email {
+    my ($place) = @_;
     my @args = (
         next_amsterdam_meeting(),
-        'Restaurant Ling Hong',
-        'Ouddiemerlaan 15',
-        'Diemen',
-        'http://www.eet.nu/diemen/ling-hong',
+        $place{name},
+        $place{street},
+        $place{place},
+        $place{url},
+        $place{name},
         next_amsterdam_meeting(),
-        'Restaurant Ling Hong',
-        'Ouddiemerlaan 15',
-        'Diemen',
-        'http://www.eet.nu/diemen/ling-hong',
+        $place{name},
+        $place{street},
+        $place{place},
+        $place{url},
+        $place{name},
     );
     my $body = sprintf(<<'    EOM', @args);
 [English version follows the dutch text]
@@ -61,7 +85,7 @@ De eerstvolgende bijeenkomst vindt plaats op dinsdag %s van
 Zie %s voor details.
 
 Liefhebbers van een etentje vooraf kunnen reeds tussen 18:00 en 18:30
-naar het restaurant komen om een hapje te eten.
+naar %s komen om een hapje te eten.
 
 Bezoek onze Web site http://perl.nl/amsterdam voor meer details.
 
@@ -86,7 +110,7 @@ Our next meeting is Tuesday, %s, from 20:00 till 22:30 at the
 See %s for a description.
 
 If you want to join some of us for dinner, please gather between 18:00
-and 18:30 at the restaurant.
+and 18:30 at %s.
 
 See http://perl.nl/amsterdam for more details.
 -- 
