@@ -12,7 +12,7 @@ waar je andere Perl adepten kunt ontmoeten, over Perl kunt praten, discussi&euml
 Als je interesse hebt om samen met enkelen van ons voor
 de bijeenkomst een hapje te eten,
 abonneer je dan op de
-<a href="/amsterdam/mailing_list">mailing list</a>
+<a href="/amsterdam/mailing_list">mailinglist</a>
 en hou de aanwijzingen daar in de gaten.
 </p>
 <h3>Boeken met korting</h3>
@@ -22,9 +22,9 @@ Ter inzage, bespreekbaar en te koop met 20% korting!
 
 <div id="sidebar">
 <h2>volgende bijeenkomst</h2>
-<p>Dinsdag [% meeting_date %].
+<p>Dinsdag [% meeting_date %].<br />
 [% include $meeting_place %]
-Zie mailinglist.
+<br />Zie ook <a href="/amsterdam/mailing_list">mailinglist</a>.
 </p>
 <h2>recente onderwerpen</h2>
 <h3>ingy</h3>
