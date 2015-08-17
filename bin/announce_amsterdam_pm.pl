@@ -33,7 +33,7 @@ my %amsterdam_place = (
     },
 );
 
-if (not exists $amsterdam{ $opt{place} }) {
+if (not exists $amsterdam_place{ $opt{place} }) {
     die "Onbekende plaats voor bijeenkomst: $opt{place}\n";
 }
 
@@ -43,7 +43,7 @@ if ( $opt{force} || is_amsterdam_announce() ) {
 
 
 sub send_email {
-    my ($place) = @_;
+    my (%place) = @_;
     my @args = (
         next_amsterdam_meeting(),
         $place{name},
