@@ -43,20 +43,20 @@ if ( $opt{force} || is_amsterdam_announce() ) {
 
 
 sub send_email {
-    my (%place) = @_;
+    my ($place) = @_;
     my @args = (
         next_amsterdam_meeting(),
-        $place{name},
-        $place{street},
-        $place{place},
-        $place{url},
-        $place{name},
+        $place->{name},
+        $place->{street},
+        $place->{place},
+        $place->{url},
+        $place->{name},
         next_amsterdam_meeting(),
-        $place{name},
-        $place{street},
-        $place{place},
-        $place{url},
-        $place{name},
+        $place->{name},
+        $place->{street},
+        $place->{place},
+        $place->{url},
+        $place->{name},
     );
     my $body = sprintf(<<'    EOM', @args);
 [English version follows the dutch text]
