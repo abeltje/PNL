@@ -10,7 +10,7 @@ get '/' => sub {
     template 'amsterdam' => {
         title         => 'Amsterdam Perl Mongers',
         meeting_date  => next_amsterdam_meeting(),
-        meeting_place => 'linghong.tt',
+        meeting_place => 'techinc.tt',
     };
 };
 
