@@ -1,6 +1,9 @@
 <div id="kopijbody">
-<h2>Nederlandse Perl-Workshop 2015</h2>
-<h3> Universiteit voor Humanistiek<br/> Kromme Nieuwegracht 29, 3512 HD Utrecht<br/> Vrijdag 10 april 2015, 9:00  &ndash; 18:00  uur <br/>
+<h2>Nederlandse Perl-Workshop 2016</h2>
+<h3>
+B.Amsterdam<br/>
+Johan Huizingalaan 763a, 1066 VH Amsterdam<br/>
+Vrijdag 1 april 2016, 9:00  &ndash; 18:00  uur <br/>
 </h3>
 <p>
 De Perl-workshop is een dag van presentaties voor gebruikers van de programmeertaal Perl van alle niveaus.
@@ -11,18 +14,22 @@ en professionele gebruikers van Perl uit verschillende organisaties. Maar ook ni
 Tijdens de presentaties en informele gesprekken blijf je op de hoogte van de laatste toevoegingen
 aan taal en modules en kom je hoogstwaarschijnlijk altijd oplossingen voor problemen uit de dagelijkse praktijk tegen.
 </p> 
-<h3>Dezelde locatie als vorig jaar </h3>
-<p>
-Dit jaar kunnen wij gebruik maken van collegezalen van de Universiteit voor Humanistiek in Utrecht, op loopafstand van Station Utrecht Centraal.
-</p>
 
+<h3>Nieuwe locatie</h3>
+<p>
+Dit jaar kunnen wij gebruik maken van
+<a href="http://www.b.amsterdam/">B.Amsterdam</a>.
+<br /><a
+href="https://www.google.nl/maps/place/B.+Amsterdam+::+Building+Business,+Johan+Huizingalaan+763A,+1066+VH+Amsterdam/@52.3430396,4.8292805,16z/data=!4m2!3m1!1s0x47c5e18eae78495d:0xc6ec111aab4c79fe">
+Google maps</a>
+</p>
 
 <h3>Zelf een presentatie geven?</h3>
 <p>Wij kijken uit naar meer boeiende presentaties van deelnemers.
 Dit is ook voor jou en je bedrijf de kans om eigen Perl-projecten te presenteren,
 er bekendheid mee te genereren en waardevolle feedback van experts te krijgen.
 Dus heb je iets om met andere Perl-gebruikers delen,
-<a href="http://www.perlworkshop.nl/nlpw2015/speakers.html">klik dan hier om je presentatie voor te stellen</a>.
+<a href="http://www.perlworkshop.nl/nlpw2016/speakers.html">dien een presentatie in</a>.
 </p>
 
 <h3>Naborrelen</h3>
@@ -35,12 +42,16 @@ verwoed programmeren of welke vorm van gezelligheid dan ook.
 <h3>YAPC::TV</h3>
 <p>
 Een paar <a href="http://perltv.org/source/nlpw2014">video registraties</a>
-van vorig jaar.
+uit het verleden.
 </p>
 </div> <!-- kopijbody -->
 
 <div id="sidebar">
 <h2>lees meer</h2>
+<h3>2016</h3>
+<p>
+De <a href="http://www.perlworkshop.nl/nlpw2016/">Nederlandse Perl-workshop2016</a>
+Vrijdag 1 april in Amsterdam.
 <h3>2015</h3>
 <p>
 De <a href="http://www.perlworkshop.nl/nlpw2015/">Nederlandse Perl-workshop 2015</a>

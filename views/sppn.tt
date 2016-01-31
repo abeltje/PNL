@@ -1,5 +1,6 @@
 <div id="kopijbody">
 <h2>stichting perl promotie nederland</h2>
+
 <h3>Doel</h3>
 <p>
 Het doel van de stichting is het bevorderen van het gebruik van de
@@ -10,6 +11,7 @@ met name de zogenaamde <a href="http://www.pm.org/">"Perl Mongers"</a>
 en <a href="http://nl.pm.org/groningen">Groningen.PM</a>),
 en verder alles dat deze zaken kan bevorderen.
 </p>
+
 <h3>Hoe</h3>
 <p>
 De stichting probeert haar doel te bereiken door onder andere
@@ -17,11 +19,25 @@ het organiseren van bijeenkomsten,
 het (laten) maken van documentatie en publicitair materiaal,
 en het sponsoren van projecten.
 </p>
+
 <h3>Middelen</h3>
 <p>
 De stichting verkrijgt haar inkomsten uit subsidies, donaties, schenkingen,
 en sponsor bijdragen bij het organiseren van bijvoorbeeld conferenties en congressen.
 </p>
+
+<h3>Bank</h3>
+<p>
+Stichting Perl Promotie Nederland<br />
+IBAN: NL27 RABO 0324 6272 38<br />
+BIC: RABONL2U<br />
+</p>
+
+<h3>Contact</h3>
+<p>
+info@sppn.nl
+</p>
+
 </div> <!-- kopijbody -->
 
 <div id="sidebar">
