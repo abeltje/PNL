@@ -5,9 +5,9 @@ pipeline {
     stages {
         stage('Build_and_Test') {
             steps {
-                sh 'cpanm -L local --installdeps .'
-                sh 'prove -Ilocal/lib/perl5 --formatter=TAP::Formatter::JUnit --timer -wl t/ > testout.xml'
-                archiveArtifacts artifacts: 'local/**, lib/**, bin/**, environments/**, config.yml, views/**, public/**'
+                sh 'cd builder; cpanm -L local --installdeps .'
+                sh 'cd builder; prove -Ilocal/lib/perl5 --formatter=TAP::Formatter::JUnit --timer -wl t/ > testout.xml'
+                archiveArtifacts artifacts: 'builder/local/**, builder/lib/**, builder/bin/**, builder/environments/**, config.yml, builder/views/**, builder/public/**'
             }
             post {
                 changed {
