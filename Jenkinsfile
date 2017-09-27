@@ -7,7 +7,6 @@ pipeline {
             steps {
                 sh 'cpanm -L local --installdeps .'
                 sh 'cpanm -L local Plack Daemon::Control Starman'
-                sh 'chmod +x local/bin/*'
                 sh 'prove -Ilocal/lib/perl5 --formatter=TAP::Formatter::JUnit --timer -wl t/ > testout.xml'
                 archiveArtifacts artifacts: 'local/**, lib/**, bin/**, environments/**, config.yml, views/**, public/**'
             }
@@ -36,6 +35,7 @@ pipeline {
                     ]]
                 ])
                 sh 'cp configs/perl.nl/production.yml deploy/environments/'
+		sh 'chmod +x deploy/local/bin/*'
                 archiveArtifacts artifacts: 'deploy/**'
             }
         }
