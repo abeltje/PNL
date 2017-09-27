@@ -5,9 +5,11 @@ pipeline {
     stages {
         stage('Build_and_Test') {
             steps {
-                sh 'cd builder; cpanm -L local --installdeps .'
-                sh 'cd builder; prove -Ilocal/lib/perl5 --formatter=TAP::Formatter::JUnit --timer -wl t/ > testout.xml'
-                archiveArtifacts artifacts: 'builder/local/**, builder/lib/**, builder/bin/**, builder/environments/**, config.yml, builder/views/**, builder/public/**'
+                sh 'cpanm -L local --installdeps .'
+                sh 'cpanm -L local Plack Daemon::Control Starman'
+                sh 'chmod +x local/bin/*'
+                sh 'prove -Ilocal/lib/perl5 --formatter=TAP::Formatter::JUnit --timer -wl t/ > testout.xml'
+                archiveArtifacts artifacts: 'local/**, lib/**, bin/**, environments/**, config.yml, views/**, public/**'
             }
             post {
                 changed {
@@ -34,7 +36,7 @@ pipeline {
                     ]]
                 ])
                 sh 'cp configs/perl.nl/production.yml deploy/environments/'
-                archiveArtifacts artifacts: 'deploy/local/**, deploy/lib/**, deploy/bin/**, deploy/environments/**, config.yml, deploy/views/**, deploy/public/**'
+                archiveArtifacts artifacts: 'deploy/**'
             }
         }
     }
