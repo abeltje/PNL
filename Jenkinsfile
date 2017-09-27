@@ -5,8 +5,9 @@ pipeline {
     stages {
         stage('Build_and_Test') {
             steps {
-                sh 'cpanm -L local --installdeps .'
-                sh 'cpanm -L local Plack Daemon::Control Starman'
+	        script { echo "Building and testing branch: " + scm.branches[0].name }
+                sh 'cpanm --notest -L local --installdeps .'
+                sh 'cpanm --notest -L local Test::NoWarnings Plack Daemon::Control Starman'
                 sh 'prove -Ilocal/lib/perl5 --formatter=TAP::Formatter::JUnit --timer -wl t/ > testout.xml'
                 archiveArtifacts artifacts: 'local/**, lib/**, bin/**, environments/**, config.yml, views/**, public/**'
             }
@@ -35,8 +36,16 @@ pipeline {
                     ]]
                 ])
                 sh 'cp configs/perl.nl/production.yml deploy/environments/'
-		sh 'chmod +x deploy/local/bin/*'
+                sh 'chmod +x deploy/local/bin/*'
                 archiveArtifacts artifacts: 'deploy/**'
+            }
+        }
+        stage('DeployPreview') {
+//            when { branch 'pnl-test' }
+            steps {
+                script {
+                    def usrinput = input message: "Deploy or Abort ?", ok: "Deploy!"
+                }
             }
         }
     }
