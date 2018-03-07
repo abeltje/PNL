@@ -2,13 +2,14 @@
 <h2>nl-pm@amsterdam.pm.org</h2>
 <h3>Algemene mailing list voor .nl</h3>
 <p>
-De mailinglist is er voor het organiseren van de meetings, of om over willekeurige andere onderwerpen te praten (niet noodzakelijk perl).
-De taal op de mailinglist is soms Engels, dan weer Nederlands, en soms zelfs perl.
-Als je niet minstens 2 van deze talen beheerst, kun je beter niet op de list abonneren.
+De mailinglist is er voor het organiseren van de meetings, of om over willekeurige andere
+onderwerpen te praten (niet noodzakelijk perl).  De taal op de mailinglist is soms Engels, dan
+weer Nederlands, en soms zelfs perl.  Als je niet minstens 2 van deze talen beheerst, kun je
+beter niet op de list abonneren.
 </p>
 <p>
-Om je op de list te abonneren, kun je of een willekeurige email sturen aan <a href="mailto:nl-pm-subscribe@amsterdam.pm.org">nl-pm-subscribe@amsterdam.pm.org</a>.
-De inhoud van de email doet niet ter zake.
+Om je op de list te abonneren, kun je of een willekeurige e-mail sturen aan <a href="mailto:nl-pm-subscribe@amsterdam.pm.org">nl-pm-subscribe@amsterdam.pm.org</a>.
+De inhoud van de e-mail doet niet ter zake.
 </p>
 Of makkelijker is, ga naar de <a href="http://list.xs4all.nl/mailman/listinfo/nl-pm">mailinglist informatie pagina</a>,
 waar je een web form kunt vinden waarmee je je kunt aanmelden.
@@ -17,16 +18,20 @@ Om je abonnement weer op te zeggen, ga je gewoon naar dezelfde <http://list.xs4a
 Je kunt op die pagina ook je voorkeur aangeven wat betreft de mailinglist, bijvoorbeeld als je de lijst in digest formaat wilt ontvangen.
 </p>
 <p>
-De URL naar de mailinglist informatie pagina kun je ook vinden onderaan elke email die naar de lijst gestuurd wordt.
+De URL naar de mailinglist informatie pagina kun je ook vinden onderaan elke e-mail die naar de lijst gestuurd wordt.
 </p>
 </div> <!-- kopijbody -->
 
 <div id="sidebar">
 <h2>zie ook</h2>
+[%#
+<!--
 <h3>Groningen</h3>
 <p>
 De noorderlijkste <a href="/groningen/mailing_list">lijst</a> van het land.
 </p>
+-->
+%]
 <h3>De rest van de wereld</h3>
 <p>
 Alle <a href="http://www.pm.org/">Perl User Groups</a> bij elkaar.

@@ -23,6 +23,13 @@ get '/' => sub {
 
 load_app 'Amsterdam', prefix => '/amsterdam';
 
+prefix '/amsterdamx';
+get '/' => sub {
+    template 'amsterdamx' => {
+        title => "AmsterdamX Perl Mongers",
+    };
+};
+
 prefix '/groningen';
 get '/' => sub {
     template 'groningen' => {
