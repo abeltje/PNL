@@ -33,6 +33,15 @@ zodat je weer mee kan praten over het &lsquo;trending topic&rsquo;.
   padding: 10px;
 ">Perl Weekly</a>
 </p>
+
+<p>
+Gelukkig hebben we iemand in ons (Nederlandse)midden die alle ontwikkelingen
+rondom <b>perl6</b> goed in de gaten houdt (als ze die
+al niet zelf veroorzaakt) en deze samenvat in
+<a href= "https://p6weekly.wordpress.com" target="_blank"
+   >Weekly changes in and around Perl 6</a> (Dank je Liz!).
+</p>
+
 </div> <!-- kopijbody -->
 
 <div id="sidebar">
@@ -47,6 +56,7 @@ zodat je weer mee kan praten over het &lsquo;trending topic&rsquo;.
 &#x1F42A;
 <a href="http://perlweekly.com/latest.html">Deze week</a>
 </p>
+<p><a href="https://p6weekly.wordpress.com">Perl 6 Weekly</a></p>
 <h3>Nieuwsarchief</h3>
 <p><a href="http://perlweekly.com/archive/reverse.html">Voorgaande Perl Weekly's</a></p>
 <h3>Blogs</h3>
