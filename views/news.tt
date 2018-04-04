@@ -1,65 +1,67 @@
 <div id="kopijbody">
-<h2>perl nieuws</h2>
-<p>
-Perl is een springlevende taal.
-Ontwikkelingen zijn er op vele gebieden.
-Maar ja, jij bent druk aan het programmeren
-of met het aansturen van de programmeurs.
-Je hebt de tijd niet om de honderden posts
-en artikelen elke dag te lezen...
-</p>
-<p>
-Toch wil je een oogje houden op alle ontwikkelingen
-zonder te verdrinken in een zee van blogs.
-Je hebt iemand nodig om de meest belangrijke berichten
-voor jou op een rijtje te zetten.
-</p>
-<p>
-Gabor Szabo is de man. Elke maandag smullen
-zodat je weer mee kan praten over het &lsquo;trending topic&rsquo;.
-</p>
-<p style="margin: 40px">
-<a href="http://perlweekly.com/" style="
-  background-color: #004065;
-  color: #FFF;
-  text-decoration: none;
-  font-size: 40px;
-  font-weight: bold;
-  font-family: Gadget;
+	<h2>Perl nieuws</h2>
+	<p>
+		Perl is een springlevende taal.  Ontwikkelingen zijn er op vele gebieden.
+		Maar ja, jij bent druk aan het programmeren of met het aansturen van de
+		programmeurs.  Je hebt de tijd niet om de honderden posts en artikelen
+		elke dag te lezen...
+	</p>
+	<p>
+		Toch wil je een oogje houden op alle ontwikkelingen zonder te verdrinken
+		in een zee van blogs.  Je hebt iemand nodig om de meest belangrijke
+		berichten voor jou op een rijtje te zetten.
+	</p>
+	<p>
+		Gabor Szabo is de man. Elke maandag smullen zodat je weer mee kan praten
+		over het &lsquo;trending topic&rsquo;.
+	</p>
+	<p style="margin: 40px">
+		<a href="http://perlweekly.com/" style="
+			background-color: #004065;
+			color: #FFF;
+			text-decoration: none;
+			font-size: 40px;
+			font-weight: bold;
+			font-family: Gadget;
 
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border: 1px solid #000;
-  padding: 10px;
-">Perl Weekly</a>
-</p>
-
-<p>
-Gelukkig hebben we iemand in ons (Nederlandse)midden die alle ontwikkelingen
-rondom <b>perl6</b> goed in de gaten houdt (als ze die
-al niet zelf veroorzaakt) en deze samenvat in
-<a href= "https://p6weekly.wordpress.com" target="_blank"
-   >Weekly changes in and around Perl 6</a> (Dank je Liz!).
-</p>
-
-</div> <!-- kopijbody -->
-
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			border: 1px solid #000;
+			padding: 10px;
+		">Perl Weekly</a>
+	</p>
+	<p>
+		Gelukkig hebben we iemand in ons (Nederlandse)midden die alle
+		ontwikkelingen rondom <b>Perl&nbsp;6</b> goed in de gaten houdt (als ze
+		die al niet zelf veroorzaakt) en deze samenvat in <a href=
+		"https://p6weekly.wordpress.com" target="_blank">Weekly changes in and
+		around Perl 6</a> (Dank je Liz!).
+	</p>
+</div>
 <div id="sidebar">
-<h2>bronnen</h2>
-<h3>Perl sites</h3>
-<p><a href="http://www.perl.org/">The Perl Programming Language</a></p>
-<p><a href="http://www.perlbuzz.com/">Perl Buzz</a></p>
-<h3>Nieuwsbrieven</h3>
-<p><a href="http://lists.perl.org/">Perl Mailing Lists</a></p>
-<p>
-<a href="http://perlweekly.com/">Perl Weekly</a>
-&#x1F42A;
-<a href="http://perlweekly.com/latest.html">Deze week</a>
-</p>
-<p><a href="https://p6weekly.wordpress.com">Perl 6 Weekly</a></p>
-<h3>Nieuwsarchief</h3>
-<p><a href="http://perlweekly.com/archive/reverse.html">Voorgaande Perl Weekly's</a></p>
-<h3>Blogs</h3>
-<p><a href="http://blogs.perl.org/">There's more than one way to blog it.</a></p>
-<p><a href="http://perlhacks.com/">Just another Perl Hacker's blog.</a></p>
-</div> <!-- sidebar -->
+	<h2>Bronnen</h2>
+	<h3>Perl sites</h3>
+	<ul>
+		<li><a href="http://www.perl.org/">The Perl Programming Language</a></li>
+		<li><a href="http://www.perlbuzz.com/">Perl Buzz</a></li>
+	</ul>
+	<h3>Nieuwsbrieven</h3>
+	<ul>
+		<li><a href="http://lists.perl.org/">Perl Mailing Lists</a></li>
+		<li>
+			<a href="http://perlweekly.com/">Perl Weekly</a>
+			&#x1F42A;
+			<a href="http://perlweekly.com/latest.html">Deze week</a>
+		</li>
+		<li><a href="https://p6weekly.wordpress.com">Perl 6 Weekly</a></li>
+	</ul>
+	<h3>Nieuwsarchief</h3>
+	<ul>
+		<li><a href="http://perlweekly.com/archive/reverse.html">Voorgaande Perl Weekly's</a></li>
+	</ul>
+	<h3>Blogs</h3>
+	<ul>
+		<li><a href="http://blogs.perl.org/">There's more than one way to blog it.</a></li>
+		<li><a href="http://perlhacks.com/">Just another Perl Hacker's blog.</a></li>
+	</ul>
+</div>
