@@ -10,12 +10,14 @@ use Getopt::Long;
 my %opt = (
     production => 0,
     force => 0,
-    place => 'linghong',
+    place => 'techinc',
+    from  => 'abeltje@test-smoke.org',
 );
 GetOptions \%opt => qw/
     production|p
     force|f
     place=s
+    from=s
 /;
 
 my %amsterdam_place = (
@@ -121,22 +123,21 @@ See http://perl.nl/amsterdam for more details.
         Cc => [
             'abeltje@gmail.com',
             'abeltje@test-smoke.org',
-            'hvo.pm@xs4all.nl',
         ],
     );
     if ($opt{production}) {
         %address = (
             To => 'nl-pm@amsterdam.pm.org',
-            Cc => [
-                'groningen-pm@pm.org',
-            ],
+#            Cc => [
+#                'groningen-pm@pm.org',
+#            ],
         );
     }
-    MIME::Lite->send('sendmail', FromSender => 'hvo.pm@xs4all.nl');
+    MIME::Lite->send('sendmail', FromSender => $opt{from});
     my $msg = MIME::Lite->new(
         Subject => 'Bijeenkomst Amsterdam Perl Mongers, dinsdag '
             . next_amsterdam_meeting(),
-        From => 'Perl NL <hvo.pm@xs4all.nl>',
+        From => "Perl NL <$opt{from}>",
         %address,
         Data => $body,
     );

@@ -183,6 +183,6 @@ sub date_nl {
 
 =head1 STUFF
 
-(c) MMIX - MMXII Abe Timmerman <abeltje@cpan.org>
+(c) MMIX - MMXVIII Abe Timmerman <abeltje@cpan.org>
 
 =cut
