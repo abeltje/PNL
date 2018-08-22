@@ -1,36 +1,36 @@
 <div id="kopijbody">
-	<h2>introductie</h2>
-	<p>
-		Perl.nl is de gezamenlijke website van de Nederlandse Perl-gemeenschap,
-		ook bekend als de Nederlandse Perl Mongers. Ben je ge&iuml;nteresseerd in
-		het programmeren met Perl, kom dan gerust eens naar een van onze
-		maandelijkse meetings om kennis te maken. Deze meetings zijn deels
-		gezellig en deels technisch van aard. Je kunt er je vragen over Perl
-		stellen, en demonstreren wat je zelf met of voor Perl hebt gebouwd.
-		Bovendien is er ieder jaar een landelijke workshop van een hele dag.
-	</p>
+  <h2>introductie</h2>
+  <p>
+    Perl.nl is de gezamenlijke website van de Nederlandse Perl-gemeenschap,
+    ook bekend als de Nederlandse Perl Mongers. Ben je ge&iuml;nteresseerd in
+    het programmeren met Perl, kom dan gerust eens naar een van onze
+    maandelijkse meetings om kennis te maken. Deze meetings zijn deels
+    gezellig en deels technisch van aard. Je kunt er je vragen over Perl
+    stellen, en demonstreren wat je zelf met of voor Perl hebt gebouwd.
+    Bovendien is er ieder jaar een landelijke workshop van een hele dag.
+  </p>
 </div>
 <div id="sidebar">
-	<h2>Uitgelicht</h2>
-	<h3>Waarom Perl</h3>
-	<p>
-		Een paar goede <a href="/why">redenen</a> om Perl te gebruiken.
-	</p>
-	<h3>Nieuwste boeken</h3>
-	<p>
-		Bijgewerkt voor Perl 5.14!
-	</p>
-	<ul>
-		<li><a href="http://shop.oreilly.com/product/0636920018476.do">Perl Pocket Reference, 5th Edition</a></li>
-		<li><a href="http://onyxneon.com/books/modern_perl/">Modern Perl</a></li>
-	</ul>
-	<p>
-		Met <a href="/amsterdam">korting</a> verkrijgbaar.
-	</p>
-	<h3>Git intro</h3>
-	<p>
-		Deze site wordt gemaakt met behulp van Git.  Vandaar dat een link naar <a
-		href="https://speakerdeck.com/mrallen1/intro-to-git-for-the-perl-hacker">
-		Intro to Git for the Perl Hacker</a> niet mag ontbreken.
-	</p>
+  <h2>Uitgelicht</h2>
+  <h3>Waarom Perl</h3>
+  <p>
+    Een paar goede <a href="/why">redenen</a> om Perl te gebruiken.
+  </p>
+  <h3>Nieuwste boeken</h3>
+  <p>
+    Bijgewerkt voor Perl 5.14!
+  </p>
+  <ul>
+    <li><a href="http://shop.oreilly.com/product/0636920018476.do">Perl Pocket Reference, 5th Edition</a></li>
+    <li><a href="http://onyxneon.com/books/modern_perl/">Modern Perl</a></li>
+  </ul>
+  <p>
+    Met <a href="/amsterdam">korting</a> verkrijgbaar.
+  </p>
+  <h3>Git intro</h3>
+  <p>
+    Deze site wordt gemaakt met behulp van Git.  Vandaar dat een link naar <a
+    href="https://speakerdeck.com/mrallen1/intro-to-git-for-the-perl-hacker">
+    Intro to Git for the Perl Hacker</a> niet mag ontbreken.
+  </p>
 </div>

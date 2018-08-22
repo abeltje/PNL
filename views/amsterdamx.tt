@@ -1,22 +1,22 @@
 <div id="kopijbody">
-	<h2>AmsterdamX.pm</h2>
-		<p>
-			AmsterdamX.pm is een Perl gebruikersgroep in Amsterdam die Engels als
-			voertaal heeft om de vele buitenlanders in Nederland (met name
-			Amsterdam) die Perl programmeren een platform te geven.  Iedereen is
-			er natuurlijk altijd welkom. Ze hebben in de regel ook 1 keer per
-			maand een bijeenkomst in het kantoor van Booking.com aan de
-			Herengracht (bij het Rembrandtplein).
-		</p>
-		<p>
-			Bezoek <a href="http://amsterdamx.pm.org" target="_blank">hun
-			website</a> voor meer informatie, ze hebben ook een <a
-			href="http://mail.pm.org/pipermail/amsterdamx-pm/"
-			target="_blank">mailinglist</a> en <a
-			href="https://twitter.com/AmsterdamXpm"
-			target="_blank">twitter</a>.<br>
-		</p>
-	</div>
+  <h2>AmsterdamX.pm</h2>
+    <p>
+      AmsterdamX.pm is een Perl gebruikersgroep in Amsterdam die Engels als
+      voertaal heeft om de vele buitenlanders in Nederland (met name
+      Amsterdam) die Perl programmeren een platform te geven.  Iedereen is
+      er natuurlijk altijd welkom. Ze hebben in de regel ook 1 keer per
+      maand een bijeenkomst in het kantoor van Booking.com aan de
+      Herengracht (bij het Rembrandtplein).
+    </p>
+    <p>
+      Bezoek <a href="http://amsterdamx.pm.org" target="_blank">hun
+      website</a> voor meer informatie, ze hebben ook een <a
+      href="http://mail.pm.org/pipermail/amsterdamx-pm/"
+      target="_blank">mailinglist</a> en <a
+      href="https://twitter.com/AmsterdamXpm"
+      target="_blank">twitter</a>.<br>
+    </p>
+  </div>
 <div id="sidebar">
-	<h2>recente onderwerpen</h2>
+  <h2>recente onderwerpen</h2>
 </div>

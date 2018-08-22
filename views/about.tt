@@ -1,45 +1,45 @@
 <div id="kopijbody">
-	<h2>Over Perl</h2>
-	<p>
-		Perl is een verzamelnaam voor een aantal versies van een programmeertaal
-		die in de afgelopen 30 jaar haar diensten heeft bewezen in de
-		programmeertalenwereld met onder andere een zeer uitgebreide
-		reguliere-expressie verwerking. Momenteel wordt er actief onderhoud
-		gedaan aan twee versies.
-	</p>
-	<p>
-		Perl&nbsp;5, dat al 25 jaar het werkpaard is voor zaken als databewerking
-		en web, waarbij databaseinteractie en ORM (Object Relation Management),
-		OOP (Object georiënteerd programmeren) en MVC (Model View Controller)
-		webraamwerken een focus hebben gekregen.  Daarnaast is er een enorme
-		bibliotheek in het publieke domein (<a href="https://metacpan.org"
-		target="_blank">CPAN</a>) waaruit geput kan worden voor het oplossen van
-		de meeste problemen.
-		<br>
-		<a href="https://perl.org" target="_blank">Meer informatie over Perl5</a> (Engels)<br>
-	</p>
-	<p>
-		Perl&nbsp;6 is de laatste jaren uitgegroeid tot een programmeertaal waarbij de
-		uitgangspunten van Perl 5 ("Er is meer dan 1 manier om iets te doen" en
-		"Maak moeilijke dingen makkelijk en ondoenlijke dingen doenlijk") zijn
-		aangevuld met de eisen die aan een moderne programmeertaal worden
-		gesteld. Hieronder vallen parallel uitvoeren van code, non-blocking IO,
-		via een grammatica definiëren van een mini-taal en het rekenen met grote
-		getallen en breuken.
-		<br>
-		<a href="https://perl6.org" target="_blank">Meer informatie over
-		Perl&nbsp;6</a> (Engels)<br>
-	</p>
+  <h2>Over Perl</h2>
+  <p>
+    Perl is een verzamelnaam voor een aantal versies van een programmeertaal
+    die in de afgelopen 30 jaar haar diensten heeft bewezen in de
+    programmeertalenwereld met onder andere een zeer uitgebreide
+    reguliere-expressie verwerking. Momenteel wordt er actief onderhoud
+    gedaan aan twee versies.
+  </p>
+  <p>
+    Perl&nbsp;5, dat al 25 jaar het werkpaard is voor zaken als databewerking
+    en web, waarbij databaseinteractie en ORM (Object Relation Management),
+    OOP (Object georiënteerd programmeren) en MVC (Model View Controller)
+    webraamwerken een focus hebben gekregen.  Daarnaast is er een enorme
+    bibliotheek in het publieke domein (<a href="https://metacpan.org"
+    target="_blank">CPAN</a>) waaruit geput kan worden voor het oplossen van
+    de meeste problemen.
+    <br>
+    <a href="https://perl.org" target="_blank">Meer informatie over Perl&nbsp;5</a> (Engels)<br>
+  </p>
+  <p>
+    Perl&nbsp;6 is de laatste jaren uitgegroeid tot een programmeertaal waarbij de
+    uitgangspunten van Perl 5 ("Er is meer dan 1 manier om iets te doen" en
+    "Maak moeilijke dingen makkelijk en ondoenlijke dingen doenlijk") zijn
+    aangevuld met de eisen die aan een moderne programmeertaal worden
+    gesteld. Hieronder vallen parallel uitvoeren van code, non-blocking IO,
+    via een grammatica definiëren van een mini-taal en het rekenen met grote
+    getallen en breuken.
+    <br>
+    <a href="https://perl6.org" target="_blank">Meer informatie over
+    Perl&nbsp;6</a> (Engels)<br>
+  </p>
 </div>
 <div id="sidebar">
-	<h2>Meer over Perl</h2>
-	<h3>Waarom Perl</h3>
-	<p>
-		Een paar goede <a href="/why">redenen</a> om Perl te gebruiken.
-	</p>
-	<h3>Leer Perl</h3>
-	<ul>
-		<li><a href="http://learn.perl.org" target="_blank">Learn Perl</a> (Engels)</li>
-		<li><a href="http://nl.perl6intro.com" target="_blank">Perl6 inleiding</a></li>
-	</ul>
+  <h2>Meer over Perl</h2>
+  <h3>Waarom Perl</h3>
+  <p>
+    Een paar goede <a href="/why">redenen</a> om Perl te gebruiken.
+  </p>
+  <h3>Leer Perl</h3>
+  <ul>
+    <li><a href="http://learn.perl.org" target="_blank">Learn Perl</a> (Engels)</li>
+    <li><a href="http://nl.perl6intro.com" target="_blank">Perl6 inleiding</a></li>
+  </ul>
 </div>
