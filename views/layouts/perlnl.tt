@@ -1,43 +1,46 @@
 <!doctype html>
 <html lang="[% lang or 'nl' %]">
-	<head>
-		<meta charset="utf8">
-		<title>[% title or 'Perl in .NL' %]</title>
-		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-		<meta name="Keywords" content="perl,mongers,nederland" />
-		<meta name="Description" content="Webstek van de Perl mongers in Nederland" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-		<link rel="stylesheet" type="text/css" media="all" href="/css/all.css" />
-		<link rel="stylesheet" type="text/css" media="screen" href="/css/screen.css" />
-	</head>
-	<body>
-		<div id="main">
-			<div id="kopij">
-				<div id="header">
-					<h1 id="headertitle">VOOR PERL MONGERS IN NEDERLAND</h1>
-				</div>
-				[% content %]
-			</div>
-			<div id="koemeel">
-				<div id="navi">
-					<ul>
-						<li><a href="/">introductie</a></li>
-						<li><a href="/about">over perl</a></li>
-						<li><a href="/news">perl nieuws</a></li>
-						<li><a href="/amsterdam">amsterdam.pm</a></li>
-						<li><a href="/amsterdamx">AmsterdamX.pm</a>
-					</ul>
-					[% PROCESS $extra_navi IF extra_navi %]
-				</div>
-			</div>
-			<div id="footer">
-				<p>
-					Powered by <a href="http://perldancer.org/">Dancer</a>
-					and <a href="http://github.com/">GitHub</a>.
-					Graphics by <a href="http://oldenburgvc.nl/">Oldenburg Visuele Communicatie</a>.
-				</p>
-			</div>
-		</div>
-	</body>
+  <head>
+    <meta charset="utf8">
+    <title>[% title or 'Perl in .NL' %]</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="Keywords" content="perl,mongers,nederland" />
+    <meta name="Description" content="Webstek van de Perl mongers in Nederland" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="stylesheet" type="text/css" media="all" href="/css/all.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/screen.css" />
+  </head>
+  <body>
+    <div id="main">
+      <div id="kopij">
+        <div id="header">
+          <h1 id="headertitle">VOOR PERL MONGERS IN NEDERLAND</h1>
+        </div>
+        [% content %]
+      </div>
+      <div id="koemeel">
+        <div id="navi">
+          <ul>
+            <li><a href="/">introductie</a></li>
+            <li><a href="/about">over perl</a></li>
+            <li><a href="/news">perl nieuws</a></li>
+            <li><a href="/amsterdam">amsterdam.pm</a></li>
+            <li><a href="/amsterdamx">AmsterdamX.pm</a>
+[%#
+            <li><a href="/workshop">workshop</a></li>
+%]
+          </ul>
+          [% PROCESS $extra_navi IF extra_navi %]
+        </div>
+      </div>
+      <div id="footer">
+        <p>
+          Powered by <a href="http://perldancer.org/">Dancer</a>
+          and <a href="http://github.com/">GitHub</a>.
+          Graphics by <a href="http://oldenburgvc.nl/">Oldenburg Visuele Communicatie</a>.
+        </p>
+      </div>
+    </div>
+  </body>
 </html>
