@@ -130,7 +130,7 @@ sub amsterdam_meeting_time {
         or ($month == 4 && $mday == 1 && $year == 2012)
         or ($month == 4 && $mday == 5)
         or ($month == 11 && $mday == 5)
-        or ($year == 2019 && $month == 3) # German Perl Workshop 2019
+        or ($year == 2019 && $month == 2) # German Perl Workshop 2019
     )
     {
         $mday += 7;
