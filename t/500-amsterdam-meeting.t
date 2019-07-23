@@ -65,6 +65,7 @@ use Amsterdam::Meeting ':all';
         { time => [ 0, 2013], date => '8 januari 2013' },
         { time => [ 1, 2013], date => '5 februari 2013' },
         { time => [ 2, 2013], date => '5 maart 2013' },
+        { time => [ 7, 2019], date => '13 augustus 2019'},
     );
     for my $test (@testevents) {
         $time = amsterdam_meeting_time(@{$test->{time}});
