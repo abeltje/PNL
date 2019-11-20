@@ -19,7 +19,7 @@
     <a href="https://perl.org" target="_blank">Meer informatie over Perl&nbsp;5</a> (Engels)<br>
   </p>
   <p>
-    Perl&nbsp;6 is de laatste jaren uitgegroeid tot een programmeertaal waarbij de
+    Raku is de laatste jaren uitgegroeid tot een programmeertaal waarbij de
     uitgangspunten van Perl 5 ("Er is meer dan 1 manier om iets te doen" en
     "Maak moeilijke dingen makkelijk en ondoenlijke dingen doenlijk") zijn
     aangevuld met de eisen die aan een moderne programmeertaal worden
@@ -27,8 +27,8 @@
     via een grammatica definiëren van een mini-taal en het rekenen met grote
     getallen en breuken.
     <br>
-    <a href="https://perl6.org" target="_blank">Meer informatie over
-    Perl&nbsp;6</a> (Engels)<br>
+    <a href="https://raku.org" target="_blank">Meer informatie over
+    Raku</a> (Engels)<br>
   </p>
 </div>
 <div id="sidebar">
@@ -40,6 +40,6 @@
   <h3>Leer Perl</h3>
   <ul>
     <li><a href="http://learn.perl.org" target="_blank">Learn Perl</a> (Engels)</li>
-    <li><a href="http://nl.perl6intro.com" target="_blank">Perl6 inleiding</a></li>
+    <li><a href="http://nl.perl6intro.com" target="_blank">Raku inleiding</a></li>
   </ul>
 </div>
