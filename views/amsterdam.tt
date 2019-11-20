@@ -26,7 +26,5 @@ Ter inzage, bespreekbaar en te koop met 20% korting!
 [% include $meeting_place %]
 <br />Zie ook <a href="/amsterdam/mailing_list">mailinglist</a>.
 </p>
-<h2>recente onderwerpen</h2>
-<h3>ingy</h3>
-<p>was hier</p>
+<!-- <h2>recente onderwerpen</h2> -->
 </div> <!-- sidebar -->

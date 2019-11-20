@@ -10,7 +10,7 @@ use Getopt::Long;
 my %opt = (
     production => 0,
     force => 0,
-    place => 'techinc',
+    place => 'mintlab',
     from  => 'abeltje@test-smoke.org',
 );
 GetOptions \%opt => qw/
@@ -32,6 +32,12 @@ my %amsterdam_place = (
         street => 'Louwesweg 1',
         place  => 'Amsterdam',
         url    => 'http://www.techinc.nl',
+    },
+    mintlab => {
+        name   => 'Mintlab',
+        street => 'HJE Wenkenbachweg 90',
+        place  => 'Amsterdam-Duivendrecht',
+        url    => 'https://www.mintlab.nl',
     },
 );
 
