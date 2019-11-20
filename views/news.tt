@@ -32,10 +32,10 @@
   </p>
   <p>
     Gelukkig hebben we iemand in ons (Nederlandse)midden die alle
-    ontwikkelingen rondom <b>Perl&nbsp;6</b> goed in de gaten houdt (als ze
+    ontwikkelingen rondom <b>Raku</b> goed in de gaten houdt (als ze
     die al niet zelf veroorzaakt) en deze samenvat in <a href=
-    "https://p6weekly.wordpress.com" target="_blank">Weekly changes in and
-    around Perl 6</a> (Dank je Liz!).
+    "https://rakudoweekly.blog" target="_blank">Weekly changes in and
+    around Raku</a> (Dank je Liz!).
   </p>
 </div>
 <div id="sidebar">
@@ -53,7 +53,7 @@
       &#x1F42A;
       <a href="http://perlweekly.com/latest.html">Deze week</a>
     </li>
-    <li><a href="https://p6weekly.wordpress.com">Perl 6 Weekly</a></li>
+    <li><a href="https://rakudoweekly.blog">Rakudo Weekly</a></li>
   </ul>
   <h3>Nieuwsarchief</h3>
   <ul>
