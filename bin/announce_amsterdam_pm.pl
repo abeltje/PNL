@@ -10,7 +10,7 @@ use Getopt::Long;
 my %opt = (
     production => 0,
     force => 0,
-    place => 'techinc',
+    place => 'mintlab',
     from_sender => 'abeltje@test-smoke.org',
     email_from  => 'Perl NL <abeltje@test-smoke.org>',
 );
@@ -34,6 +34,12 @@ my %amsterdam_place = (
         street => 'Louwesweg 1',
         place  => 'Amsterdam',
         url    => 'http://www.techinc.nl',
+    },
+    mintlab => {
+        name   => 'Mintlab',
+        street => 'HJE Wenkenbachweg 90',
+        place  => 'Amsterdam-Duivendrecht',
+        url    => 'https://www.mintlab.nl',
     },
 );
 
@@ -129,9 +135,9 @@ See http://perl.nl/amsterdam for more details.
     if ($opt{production}) {
         %address = (
             To => 'nl-pm@amsterdam.pm.org',
-            Cc => [
-                'groningen-pm@pm.org',
-            ],
+#            Cc => [
+#                'groningen-pm@pm.org',
+#            ],
         );
     }
     MIME::Lite->send('sendmail', FromSender => $opt{from_sender});

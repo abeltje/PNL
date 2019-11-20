@@ -8,4 +8,4 @@
 /META.*
 /MYMETA.*
 /logs
-/local
+local/
