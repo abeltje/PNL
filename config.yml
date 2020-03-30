@@ -26,3 +26,5 @@ engines:
     encoding:  'utf8'
     start_tag: '[%'
     end_tag:   '%]'
+
+amsterdam_meeting: nowhere
