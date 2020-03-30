@@ -1,26 +1,29 @@
 <div id="kopijbody">
-<h2>groningen.pm</h2>
-<h3>Bijeenkomsten</h3>
-<p>Als regel elke tweede dinsdag van de maand.</p>
+  <h2>groningen.pm</h2>
+  <h3>Bijeenkomsten</h3>
+  <p>Als regel elke tweede dinsdag van de maand.</p>
 
-<ul>
-<li>Wil je komen? Meld dit even op
-de <a href="/groningen/mailing_list">mailing list</a>.
-</li>
-<li>Zin in een gezellig etentje vooraf? Laat dit even weten op
-de <a href="/groningen/mailing_list">mailing list</a>.
-</li>
-</ul>
+  <ul>
+    <li>
+      Wil je komen? Meld dit even op de <a href="/groningen/mailing_list">mailing list</a>.
+    </li>
+    <li>
+      Zin in een gezellig etentje vooraf? Laat dit even weten op
+      de <a href="/groningen/mailing_list">mailing list</a>.
+    </li>
+  </ul>
 
 </div> <!-- kopijbody -->
 
 <div id="sidebar">
-<h2>recente onderwerpen</h2>
-<h3>Meer onderwerpen?</h3>
-<p>
-Naast Perl ook algemeen systeembeheer op de agenda zetten?
-</p>
-<h3>GitHub</h3>
-<p>Deze site wordt ontwikkeld met <a href="https://github.com/hvoers/PNL">GitHub</a>
-als &lsquo;CMS&rsquo;.</p>
+  <h2>recente onderwerpen</h2>
+  <h3>Meer onderwerpen?</h3>
+  <p>
+    Naast Perl ook algemeen systeembeheer op de agenda zetten?
+  </p>
+  <h3>GitHub</h3>
+  <p>
+    Deze site wordt ontwikkeld met <a href="https://github.com/hvoers/PNL">GitHub</a>
+    als &lsquo;CMS&rsquo;.
+  </p>
 </div> <!-- sidebar -->

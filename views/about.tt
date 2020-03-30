@@ -1,55 +1,45 @@
 <div id="kopijbody">
-<h2>over perl</h2>
-<p>
-Het motto van Perl is &lsquo;There's More Than One Way To Do It&rsquo; (Alles kan op meer manieren),
-oftewel TMTOWTDI, op zijn Engels uitgesproken als &lsquo;Tim Touwdi&rsquo;.
-Een leuke Nederlandse vertaling moet nog gemaakt worden,
-dus we houden het even op &lsquo;Alles kan op meer manieren&rsquo; (AKOMM).
-Dit motto is zeker van toepassing op het leren van Perl.
-We geven hier een beschrijving waar en hoe u Perl kunt leren.
-Het &lsquo;waar&rsquo; betreft de plek waar de leerstof gevonden kan worden:
-boeken, tijdschriften, websites en meer,
-die allemaal gebruikt kunnen worden om Perl te leren.
-Deze leermaterialen zijn gevarieerd genoeg in diepgang en
-specialisatie om iedereen iets te kunnen bieden, van beginner tot expert.
-</p>
-<p>
-Het &lsquo;hoe&rsquo; betreft de methode om Perl te leren:
-sommige mensen leren het beste door zelf met boeken aan de slag te gaan,
-anderen hebben liever websites en andere internetbronnen,
-weer anderen gaan zelf het liefst aan de slag met
-<a href="http://old.sppn.nl/leerperl.html#scripts">scripts</a>
-(kleine en grote stukken programmacode) en leren het dan met vallen en opstaan,
-met de foutmeldingen van de debugger en de bij Perl meegeleverde
-<a href="http://perldoc.perl.org/">digitale handboeken</a>
-en <a href="https://metacpan.org/">opdrachtenbibliotheken</a>.
-Veel mensen maken ook gebruik van en doen mee met de vele gebruikersgemeenschappen
-(in websites en nieuwsgroepen, maar ook met echte bijeenkomsten),
-waar altijd wel iemand is die geduldig vragen beantwoordt of die uit zichzelf
-uitleg geeft over een bepaald aspect van Perl.
-En dan zijn er natuurlijk nog de cursussen, conferenties, seminars
-en andere bijeenkomsten waar mensen samen aan en van elkaar leren.
-</p>
-<p>
-In het overzicht moet voor elk type leerling wel wat te vinden zijn.
-</p>
-</div> <!-- kopijbody -->
-
+  <h2>Over Perl</h2>
+  <p>
+    Perl is een verzamelnaam voor een aantal versies van een programmeertaal
+    die in de afgelopen 30 jaar haar diensten heeft bewezen in de
+    programmeertalenwereld met onder andere een zeer uitgebreide
+    reguliere-expressie verwerking. Momenteel wordt er actief onderhoud
+    gedaan aan twee versies.
+  </p>
+  <p>
+    Perl&nbsp;5, dat al 25 jaar het werkpaard is voor zaken als databewerking
+    en web, waarbij databaseinteractie en ORM (Object Relation Management),
+    OOP (Object georiënteerd programmeren) en MVC (Model View Controller)
+    webraamwerken een focus hebben gekregen.  Daarnaast is er een enorme
+    bibliotheek in het publieke domein (<a href="https://metacpan.org"
+    target="_blank">CPAN</a>) waaruit geput kan worden voor het oplossen van
+    de meeste problemen.
+    <br>
+    <a href="https://perl.org" target="_blank">Meer informatie over Perl&nbsp;5</a> (Engels)<br>
+  </p>
+  <p>
+    Raku is de laatste jaren uitgegroeid tot een programmeertaal waarbij de
+    uitgangspunten van Perl 5 ("Er is meer dan 1 manier om iets te doen" en
+    "Maak moeilijke dingen makkelijk en ondoenlijke dingen doenlijk") zijn
+    aangevuld met de eisen die aan een moderne programmeertaal worden
+    gesteld. Hieronder vallen parallel uitvoeren van code, non-blocking IO,
+    via een grammatica definiëren van een mini-taal en het rekenen met grote
+    getallen en breuken.
+    <br>
+    <a href="https://raku.org" target="_blank">Meer informatie over
+    Raku</a> (Engels)<br>
+  </p>
+</div>
 <div id="sidebar">
-<h2>meer over perl</h2>
-<h3>Waarom Perl</h3>
-<p>
-Een paar goede <a href="/why">redenen</a> om Perl te gebruiken.
-</p>
-<h3>Leer Perl</h3>
-<ul>
-<li><a href="http://old.sppn.nl/leerperl.html#ways">Methoden om Perl te leren</a></li>
-<li><a href="http://old.sppn.nl/leerperl.html#intro">Introducties en beginnerscursussen</a></li>
-<li><a href="http://old.sppn.nl/leerperl.html#books">Boeken</a></li>
-<li><a href="http://old.sppn.nl/leerperl.html#know">Kenniscentra</a></li>
-<li><a href="http://old.sppn.nl/leerperl.html#docu">Documentatie</a></li>
-<li><a href="http://old.sppn.nl/leerperl.html#scripts">Programma's, scripts, modules</a></li>
-<li><a href="http://old.sppn.nl/leerperl.html#other">Andere bronnen en onderwerpen</a></li>
-<li><a href="http://old.sppn.nl/leerperl.html#orgs">Organisaties</a></li>
-</ul>
-</div> <!-- sidebar -->
+  <h2>Meer over Perl</h2>
+  <h3>Waarom Perl</h3>
+  <p>
+    Een paar goede <a href="/why">redenen</a> om Perl te gebruiken.
+  </p>
+  <h3>Leer Perl</h3>
+  <ul>
+    <li><a href="http://learn.perl.org" target="_blank">Learn Perl</a> (Engels)</li>
+    <li><a href="http://nl.perl6intro.com" target="_blank">Raku inleiding</a></li>
+  </ul>
+</div>
