@@ -35,14 +35,16 @@ pipeline {
                         url: 'ssh://git@source.test-smoke.org:9999/~/ztreet-configs'
                     ]]
                 ])
-                sh '''
-                    if [ "$BRANCH_NAME" == "master" ] ; then
-                        cp configs/perl.nl/production.yml deploy/environments/
-                    else
-                        cp configs/perl.nl/pnl-test.yml deploy/environments/
-                    fi
-                    chmod +x deploy/local/bin/*
-                '''
+                script {
+                    echo "Testing '${scm.branches[0].name}' for master..."
+                    if (scm.branches[0].name == 'master') {
+                        sh 'cp configs/perl.nl/production.yml deploy/environments/'
+                    }
+                    else {
+                        sh 'cp configs/perl.nl/pnl-test.yml deploy/environments/'
+                    }
+                    sh 'chmod +x deploy/local/bin/*'
+                }
                 archiveArtifacts artifacts: 'deploy/**'
             }
         }
