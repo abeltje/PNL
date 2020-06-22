@@ -10,7 +10,7 @@ use Getopt::Long;
 my %opt = (
     production => 0,
     force => 0,
-    place => 'mintlab',
+    place => 'nowhere',
     from  => 'abeltje@test-smoke.org',
     from_sender => 'abeltje@test-smoke.org',
     email_from  => 'Perl NL <abeltje@test-smoke.org>',
@@ -43,10 +43,7 @@ my %amsterdam_place = (
         url    => 'https://www.mintlab.nl',
     },
     nowhere => {
-        name   => 'Nergens',
-        street => '',
-        place  => '',
-        url    => '',
+        url    => 'https://meet.jit.si/amsterdam.pm',
     },
 );
 
@@ -66,25 +63,27 @@ sub send_email {
 #        $place->{name},
 #        $place->{street},
 #        $place->{place},
-#        $place->{url},
+        $place->{url},
 #        $place->{name},
         next_amsterdam_meeting(),
 #        $place->{name},
 #        $place->{street},
 #        $place->{place},
-#        $place->{url},
+        $place->{url},
 #        $place->{name},
     );
     my $body = sprintf(<<'    EOM', @args);
 [English version follows the dutch text]
 
-LET OP: ivm. de coronacrisis, wordt ook de meeting van Amsterdam.pm van dinsdag %s afgelast.
+LET OP: ivm. de coronamaatregelen, wordt ook de meeting van Amsterdam.pm van dinsdag %s afgelast.
+We proberen echter virtueel bijeen te komen via %s
 
 Zie http://perl.nl/amsterdam voor meer details.
 
 [English version]
 
-Because of the corona crisis, the Amsterdam.pm meeting planned for tuesday %s will not take place.
+Because of the corona regulations, the Amsterdam.pm meeting planned for tuesday %s will not take place,
+but we try to have a virtual one at %s
 
 
 See http://perl.nl/amsterdam for more details.
