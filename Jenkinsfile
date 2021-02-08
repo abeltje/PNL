@@ -1,7 +1,7 @@
 #! Groovy
 
 pipeline {
-    agent any
+    agent { label 'pnl-builder' }
     stages {
         stage('Build_and_Test') {
             steps {
