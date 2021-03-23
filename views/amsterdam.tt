@@ -26,7 +26,7 @@
 <div id="sidebar">
   <h2>volgende bijeenkomst</h2>
   <p>
-    Dinsdag [% meeting_date %].
+    Dinsdag [% meeting_date %] 20:00u.
     <br>
     [% include $meeting_place %]
     <br>

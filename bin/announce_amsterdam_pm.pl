@@ -75,14 +75,14 @@ sub send_email {
     my $body = sprintf(<<'    EOM', @args);
 [English version follows the dutch text]
 
-LET OP: ivm. de coronamaatregelen, wordt ook de meeting van Amsterdam.pm van dinsdag %s afgelast.
+LET OP: ivm. de coronamaatregelen, wordt ook de meeting van Amsterdam.pm van dinsdag %s om 20:00u afgelast.
 We proberen echter virtueel bijeen te komen via %s
 
 Zie http://perl.nl/amsterdam voor meer details.
 
 [English version]
 
-Because of the corona regulations, the Amsterdam.pm meeting planned for tuesday %s will not take place,
+Because of the corona regulations, the Amsterdam.pm meeting planned for tuesday %s at 20:00h will not take place,
 but we try to have a virtual one at %s
 
 
