@@ -59,7 +59,7 @@ pipeline {
             }
             steps {
                 sh 'chmod +x deploy/local/bin/*'
-                sh 'touch deploy/tsgateway'
+                sh 'chmod +x deploy/bin/*'
                 sshagent(['ssh-deploy']) {
                         sh '''
 /usr/bin/deploy -av deploy/ pnl.fritz.box:/var/lib/www/perl.nl-preview
