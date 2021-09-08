@@ -6,14 +6,16 @@ use FindBin;
 use lib "$FindBin::Bin/../lib";
 use Amsterdam::Meeting ':all';
 use MIME::Lite;
+use YAML qw( LoadFile );
 use Getopt::Long;
 my %opt = (
-    production => 0,
-    force => 0,
-    place => 'nowhere',
-    from  => 'abeltje@test-smoke.org',
-    from_sender => 'abeltje@test-smoke.org',
-    email_from  => 'Perl NL <abeltje@test-smoke.org>',
+    production       => 0,
+    force            => 0,
+    place            => 'nowhere',
+    from             => 'abeltje@test-smoke.org',
+    from_sender      => 'abeltje@test-smoke.org',
+    email_from       => 'Perl NL <abeltje@test-smoke.org>',
+    smtp_credentials => 'environments/announce_amsterdam_pm.yml',
 );
 GetOptions \%opt => qw/
     production|p
@@ -155,13 +157,22 @@ See http://perl.nl/amsterdam for more details.
     );
     if ($opt{production}) {
         %address = (
-            To => 'nl-pm@amsterdam.pm.org',
-#            Cc => [
-#                'groningen-pm@pm.org',
-#            ],
+            To => 'nl-pm@groups.io',
         );
     }
-    MIME::Lite->send('sendmail', FromSender => $opt{from_sender});
+
+    my %credentials = ();
+    if ( -r $opt{smtp_credentials} ) {
+        %credentials = %{ LoadFile($opt{smtp_credentials}) };
+        MIME::Lite->send(
+            smtp => delete($credentials{smtp}{server}),
+            %{ $credentials{smtp} },
+            FromSender => $opt{from_sender},
+        );
+    }
+    else {
+        MIME::Lite->send('sendmail', FromSender => $opt{from_sender});
+    }
     my $msg = MIME::Lite->new(
         Subject => 'Bijeenkomst Amsterdam Perl Mongers, dinsdag '
             . next_amsterdam_meeting(),

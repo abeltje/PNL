@@ -43,17 +43,49 @@ pipeline {
                     else {
                         sh 'cp configs/perl.nl/pnl-test.yml deploy/environments/'
                     }
+		    sh 'cp configs/perl.nl/announce_amsterdam_pm.yml deploy/environments/'
                     sh 'chmod +x deploy/local/bin/*'
                 }
                 archiveArtifacts artifacts: 'deploy/**'
             }
         }
         stage('DeployPreview') {
-//            when { branch 'pnl-test' }
+            when {
+                // branch 'preview'
+                expression {
+                    echo "BRANCH_NAME is ${scm.branches[0].name}"
+                    return scm.branches[0].name == "preview"
+                }
+            }
+            steps {
+                sh 'chmod +x deploy/local/bin/*'
+                sh 'touch deploy/tsgateway'
+                sshagent(['ssh-deploy']) {
+                        sh '''
+/usr/bin/deploy -av deploy/ pnl.fritz.box:/var/lib/www/perl.nl-preview
+/usr/bin/restart-remote pnl.fritz.box perl.nl-preview
+                        '''
+                }
+            }
+        }
+        stage('DeployProduction') {
+            when {
+                //branch 'master'
+                expression {
+                    echo "BRANCH_NAME is ${scm.branches[0].name}"
+                    return scm.branches[0].name == "master"
+                }
+            }
             steps {
                 script {
                     def usrinput = input message: "Deploy or Abort ?", ok: "Deploy!"
                 }
+                sh 'chmod +x deploy/local/bin/*'
+                sh 'touch deploy/tsgateway'
+                sh '''
+/usr/bin/deploy -av deploy/ pnl.fritz.box:/var/lib/www/perl.nl-production
+/usr/bin/restart-remote pnl.fritz.box perl.nl-production
+'''
             }
         }
     }
