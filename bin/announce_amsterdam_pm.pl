@@ -75,22 +75,38 @@ sub send_email {
 #        $place->{name},
     );
     my $body = sprintf(<<'    EOM', @args);
-[English version follows the dutch text]
+[English version follows the Dutch text]
 
-LET OP: ivm. de coronamaatregelen, wordt ook de meeting van Amsterdam.pm van dinsdag %s om 20:00u afgelast.
-We proberen echter virtueel bijeen te komen via %s
+Na twee jaar COVID-19 maatrelen zijn we allemaal zo gewend geraakt aan online
+video bijeenkomsten dat Amsterdam.pm die gewoonte niet wil doorbreken. De
+bijeenkomst van dinsdag %s om 20:00u zal dan ook weer plaatvinden via
+https://meet.jit.si/amsterdam.pm
 
-Zie http://perl.nl/amsterdam voor meer details.
+Zie https://amsterdam.pm.org/amsterdam voor meer informatie.
 
 [English version]
 
-Because of the corona regulations, the Amsterdam.pm meeting planned for tuesday %s at 20:00h will not take place,
-but we try to have a virtual one at %s
+After two years of COVID-19 restrictions, we all got used to online video meetings and Amsterdam.pm doesn't want to break that habit. The meeting planned for tuesday %s at 8PM will take place at https://meet.jit.si/amsterdam.pm
 
+See https://amsterdam.pm.org/amsterdam for more information.
 
-See http://perl.nl/amsterdam for more details.
--- 
     EOM
+#[English version follows the dutch text]
+#
+#LET OP: ivm. de coronamaatregelen, wordt ook de meeting van Amsterdam.pm van dinsdag %s om 20:00u afgelast.
+#We proberen echter virtueel bijeen te komen via %s
+#
+#Zie http://perl.nl/amsterdam voor meer details.
+#
+#[English version]
+#
+#Because of the corona regulations, the Amsterdam.pm meeting planned for tuesday %s at 20:00h will not take place,
+#but we try to have a virtual one at %s
+#
+#
+#See http://perl.nl/amsterdam for more details.
+#-- 
+#    EOM
 #
 #[English version follows the dutch text]
 #
