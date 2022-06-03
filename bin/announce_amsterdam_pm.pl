@@ -86,7 +86,9 @@ Zie https://amsterdam.pm.org/amsterdam voor meer informatie.
 
 [English version]
 
-After two years of COVID-19 restrictions, we all got used to online video meetings and Amsterdam.pm doesn't want to break that habit. The meeting planned for tuesday %s at 8PM will take place at https://meet.jit.si/amsterdam.pm
+After two years of COVID-19 restrictions, we all got used to online video
+meetings and Amsterdam.pm doesn't want to break that habit. The meeting planned
+for tuesday %s at 8PM will take place at https://meet.jit.si/amsterdam.pm
 
 See https://amsterdam.pm.org/amsterdam for more information.
 
