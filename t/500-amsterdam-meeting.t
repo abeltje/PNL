@@ -84,5 +84,31 @@ use Amsterdam::Meeting ':all';
     );
 }
 
+{ # Test the new language behaviour
+
+    no warnings 'redefine';
+    my $time;
+    local *CORE::GLOBAL::time = sub { return $time };
+
+    my @testevents = (
+        { time => [ 7, 2019], nl => '13 augustus 2019', en => '13 August 2019' },
+        { time => [ 7, 2023], nl => '1 augustus 2023', en => '1 August 2023' },
+    );
+
+    for my $test (@testevents) {
+        $time = amsterdam_meeting_time(@{ $test->{time} });
+        is(
+            next_amsterdam_meeting('nl'),
+            $test->{nl},
+            "check: @{$test->{time}} => $test->{nl}"
+        );
+        is(
+            next_amsterdam_meeting('en'),
+            $test->{en},
+            "check: @{$test->{time}} => $test->{en}"
+        );
+    }
+}
+
 Test::NoWarnings::had_no_warnings();
 done_testing();

@@ -46,6 +46,7 @@ our @EXPORT_OK = qw/
 our %EXPORT_TAGS = (all => [@EXPORT_OK]);
 
 use Time::Local;
+use POSIX qw< setlocale LC_TIME strftime >;
 
 =head2 my $datumstring = next_amsterdam_meeting()
 
@@ -60,7 +61,13 @@ Een datumstring met de maand in het Nederlands (strftime "%e %B %Y").
 =cut
 
 sub next_amsterdam_meeting {
-    return date_nl(next_amsterdam_meeting_time());
+    my ($lang) = @_;
+    $lang //= 'nl';
+
+    my $next_amsterdam_meeting = next_amsterdam_meeting_time();
+    return $lang eq 'en'
+        ? date_en($next_amsterdam_meeting)
+        : date_nl($next_amsterdam_meeting);
 }
 
 =head2 my $stamp = next_amsterdam_meeting_time()
@@ -171,16 +178,41 @@ Een datumstring met de maand in het Nederlands.
 sub date_nl {
     my ($stamp) = @_;
 
-    my ($mday, $month, $year) = (localtime($stamp))[3, 4, 5];
+    my $old_locale = setlocale(LC_TIME, 'nl_NL');
+    my $date_string = strftime("%e %B %Y", localtime($stamp));
+    setlocale(LC_TIME, $old_locale);
 
-    my $month_name = [
-        qw/
-            januari februari maart april mei juni juli
-            augustus september oktober november december
-        /
-    ]->[$month];
+    $date_string =~ s{^ \s* }{}x;
+    return $date_string;
+}
 
-    return sprintf("%d %s %d", $mday, $month_name, $year + 1900);
+=head2 my $date = date_en($stamp)
+
+=head3 Argumenten
+
+Positioneel.
+
+=over
+
+=item $timestamp
+
+=back
+
+=head3 Retour
+
+Een datumstring met de maand in het Engels (Brits).
+
+=cut
+
+sub date_en {
+    my ($stamp) = @_;
+
+    my $old_locale = setlocale(LC_TIME, 'en_GB');
+    my $date_string = strftime("%e %B %Y", localtime($stamp));
+    setlocale(LC_TIME, $old_locale);
+
+    $date_string =~ s{^ \s* }{}x;
+    return $date_string;
 }
 
 1;

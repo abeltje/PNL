@@ -67,7 +67,7 @@ sub send_email {
 #        $place->{place},
         $place->{url},
 #        $place->{name},
-        next_amsterdam_meeting(),
+        next_amsterdam_meeting('en'),
 #        $place->{name},
 #        $place->{street},
 #        $place->{place},
