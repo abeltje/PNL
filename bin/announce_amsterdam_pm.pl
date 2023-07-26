@@ -79,8 +79,7 @@ sub send_email {
 
 Na twee jaar COVID-19 maatrelen zijn we allemaal zo gewend geraakt aan online
 video bijeenkomsten dat Amsterdam.pm die gewoonte niet wil doorbreken. De
-bijeenkomst van dinsdag %s om 20:00u zal dan ook weer plaatvinden via
-https://meet.jit.si/amsterdam.pm
+bijeenkomst van dinsdag %s om 20:00u zal dan ook weer plaatvinden via %s
 
 Zie https://amsterdam.pm.org/amsterdam voor meer informatie.
 
@@ -88,7 +87,7 @@ Zie https://amsterdam.pm.org/amsterdam voor meer informatie.
 
 After two years of COVID-19 restrictions, we all got used to online video
 meetings and Amsterdam.pm doesn't want to break that habit. The meeting planned
-for tuesday %s at 8PM will take place at https://meet.jit.si/amsterdam.pm
+for tuesday %s at 8PM will take place at %s
 
 See https://amsterdam.pm.org/amsterdam for more information.
 
