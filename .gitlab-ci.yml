@@ -1,0 +1,37 @@
+---
+stages:
+  - build
+  - config
+
+build-pnl-dependencies-job:
+  stage: build
+  tag: [pnl]
+  script:
+    - cpanm -L local -nq --installdeps .
+    - mkdir -p             deploy
+    - cp -av bin/          deploy/
+    - cp -av lib/          deploy/
+    - cp -av public/       deploy/
+    - cp -av views/        deploy/
+    - cp -av environments/ deploy/
+    - cp -a  local/        deploy/
+    - cp -v  config.yml    deploy/
+  artifacts:
+    paths:
+      - deploy/
+
+merge-pnl-config-job:
+  stage: config
+  tag: [pnl]
+  needs:
+    -
+      job: build-pnl-dependencies-job
+      artifacts: true
+    -
+      job: build-pnl-artifacts-job
+      artifacts: true
+  script:
+    - cp -av pnlconfig/. deploy/
+  artifacts:
+    paths:
+      - deploy
