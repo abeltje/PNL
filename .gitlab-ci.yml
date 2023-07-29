@@ -28,7 +28,9 @@ merge-pnl-config-job:
       job: build-pnl-dependencies-job
       artifacts: true
     -
+      project: systemadmin/ztreet-config
       job: build-pnl-artifacts-job
+      ref: main
       artifacts: true
   script:
     - cp -av pnlconfig/. deploy/
