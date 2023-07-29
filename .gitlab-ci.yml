@@ -32,7 +32,7 @@ merge-pnl-config-job:
       job: build-pnl-dependencies-job
       artifacts: true
     -
-      project: SysAdmin/ztreet-configs
+      project: sysadmin/ztreet-configs
       job: build-pnl-artifacts-job
       ref: main
       artifacts: true
