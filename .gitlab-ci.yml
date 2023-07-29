@@ -16,6 +16,10 @@ build-pnl-dependencies-job:
     - cp -av environments/ deploy/
     - cp -a  local/        deploy/
     - cp -v  config.yml    deploy/
+  cache:
+    key: pnl_deps
+    paths:
+      - local/
   artifacts:
     paths:
       - deploy/
