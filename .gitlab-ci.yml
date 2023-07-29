@@ -5,7 +5,7 @@ stages:
 
 build-pnl-dependencies-job:
   stage: build
-  tag: [pnl]
+  tags: [pnl]
   script:
     - cpanm -L local -nq --installdeps .
     - mkdir -p             deploy
@@ -22,7 +22,7 @@ build-pnl-dependencies-job:
 
 merge-pnl-config-job:
   stage: config
-  tag: [pnl]
+  tags: [pnl]
   needs:
     -
       job: build-pnl-dependencies-job
