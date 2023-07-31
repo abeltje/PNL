@@ -40,4 +40,4 @@ merge-pnl-config-job:
 #    - cp -av pnlconfig/. deploy/
   artifacts:
     paths:
-      - deploy
+      - deploy/
