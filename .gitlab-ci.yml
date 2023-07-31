@@ -35,5 +35,5 @@ merge-pnl-config-job:
       - deploy/
   script:
     - echo "script-section"
-    - 'curl -s -H"JOB-TOKEN: $CI_JOB_TOKEN" http://fidogitlab.fritz.box/api/v4/projects/4/jobs/artifacts/main/download?job=build-pnl-artifacts-job | bsdtar -xvf - -C .'
-    - cp -av pnlconfig/. deploy/
+    - 'curl -s -H"PRIVATE-TOKEN:glpat-x11xqqMDTu-fK7pJH34p" http://fidogitlab.fritz.box/api/v4/projects/4/jobs/artifacts/main/download?job=build-pnl-artifacts-job | bsdtar -xvf - -C .'
+    - cp -av pnlconfig/. deploy/environments/
