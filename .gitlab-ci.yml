@@ -43,5 +43,6 @@ merge-pnl-config-job:
 #  artifacts:
 #    paths:
 #      - deploy/
-#  script:
+  script:
+    - echo "script-section"
 #    - cp -av pnlconfig/. deploy/
