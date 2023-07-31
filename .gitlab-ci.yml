@@ -36,8 +36,8 @@ merge-pnl-config-job:
 #      ref: main
 #      artifacts: true
 #  tags: [pnl]
-  artifacts:
-    paths:
-      - deploy/
+#  artifacts:
+#    paths:
+#      - deploy/
 #  script:
 #    - cp -av pnlconfig/. deploy/
