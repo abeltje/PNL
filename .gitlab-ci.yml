@@ -27,6 +27,9 @@ build-pnl-dependencies-job:
 merge-pnl-config-job:
   stage: config
   tags: [pnl]
+  artifacts:
+    paths:
+      - deploy/
   needs:
     -
       job: build-pnl-dependencies-job
@@ -38,6 +41,3 @@ merge-pnl-config-job:
 #      artifacts: true
 #  script:
 #    - cp -av pnlconfig/. deploy/
-  artifacts:
-    paths:
-      - deploy/
