@@ -35,7 +35,7 @@ merge-pnl-config-job:
 #      job: build-pnl-artifacts-job
 #      ref: main
 #      artifacts: true
-  tags: [pnl]
+#  tags: [pnl]
   artifacts:
     paths:
       - deploy/
