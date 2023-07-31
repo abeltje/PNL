@@ -28,7 +28,7 @@ build-pnl-dependencies-job:
 merge-pnl-config-job:
   stage: configuration
   dependencies:
-    - "pnl_app"
+    - "build-pnl-dependencies-job"
 #  needs:
 #    -
 #      pipeline: $CI_PIPELINE_ID
