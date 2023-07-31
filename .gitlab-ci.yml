@@ -26,7 +26,8 @@ build-pnl-dependencies-job:
 
 merge-pnl-config-job:
   stage: configuration
-  tags: [pnl]
+  tags:
+    - pnl
   artifacts:
     paths:
       - deploy/
