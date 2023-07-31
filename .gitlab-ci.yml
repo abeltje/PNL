@@ -21,16 +21,19 @@ build-pnl-dependencies-job:
     paths:
       - local/
   artifacts:
+    expose_as: pnl_app
     paths:
       - deploy/
 
 merge-pnl-config-job:
   stage: configuration
-  needs:
-    -
-      pipeline: $CI_PIPELINE_ID
-      job: build-pnl-dependencies-job
-      artifacts: true
+  dependencies:
+    - "pnl_app"
+#  needs:
+#    -
+#      pipeline: $CI_PIPELINE_ID
+#      job: build-pnl-dependencies-job
+#      artifacts: true
 #    -
 #      project: sysadmin/ztreet-configs
 #      job: build-pnl-artifacts-job
