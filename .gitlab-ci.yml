@@ -29,20 +29,11 @@ merge-pnl-config-job:
   stage: configuration
   dependencies:
     - "build-pnl-dependencies-job"
-#  needs:
-#    -
-#      pipeline: $CI_PIPELINE_ID
-#      job: build-pnl-dependencies-job
-#      artifacts: true
-#    -
-#      project: sysadmin/ztreet-configs
-#      job: build-pnl-artifacts-job
-#      ref: main
-#      artifacts: true
-#  tags: [pnl]
-#  artifacts:
-#    paths:
-#      - deploy/
+  tags: [pnl]
+  artifacts:
+    paths:
+      - deploy/
   script:
     - echo "script-section"
-#    - cp -av pnlconfig/. deploy/
+    - 'curl -s -H"JOB-TOKEN: $CI_JOB_TOKEN" http://fidogitlab.fritz.box/api/v4/projects/4/jobs/artifacts/main/download?job=build-pnl-artifacts-job | bsdtar -xvf - -C .'
+    - cp -av pnlconfig/. deploy/
