@@ -28,6 +28,7 @@ merge-pnl-config-job:
   stage: configuration
   needs:
     -
+      pipeline: $CI_PIPELINE_ID
       job: build-pnl-dependencies-job
       artifacts: true
 #    -
