@@ -36,8 +36,8 @@ pipeline {
                     ]]
                 ])
                 script {
-                    echo "Testing '${scm.branches[0].name}' for master..."
-                    if (scm.branches[0].name == 'master') {
+                    echo "Testing '${scm.branches[0].name}' for main..."
+                    if (scm.branches[0].name == 'main') {
                         sh 'cp configs/perl.nl/production.yml deploy/environments/'
                     }
                     else {
@@ -70,10 +70,10 @@ pipeline {
         }
         stage('DeployProduction') {
             when {
-                //branch 'master'
+                //branch 'main'
                 expression {
                     echo "BRANCH_NAME is ${scm.branches[0].name}"
-                    return scm.branches[0].name == "master"
+                    return scm.branches[0].name == "main"
                 }
             }
             steps {
