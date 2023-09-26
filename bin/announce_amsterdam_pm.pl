@@ -45,7 +45,7 @@ my %amsterdam_place = (
         url    => 'https://www.mintlab.nl',
     },
     nowhere => {
-        url    => 'https://meet.jit.si/amsterdam.pm',
+        url    => 'https://meet.jit.si/amsterdam.pm42',
     },
 );
 
